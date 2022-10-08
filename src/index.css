@@ -3,3 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Montserrat";
+}
+
+.cont-fluid {
+  padding: 3% 12% 7%;
+}
+
+/* Navigation bar */
+
+.nvbrand {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 769px) {
+  .cont-fluid {
+      padding: 3% 5% 17%;
+  }
+
+  .nvbrand {
+      font-size: 1.2rem;
+  }
+}

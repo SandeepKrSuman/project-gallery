@@ -1,7 +1,9 @@
+import MainSec from "./components/MainSection/MainSec";
+
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <MainSec />
     </>
   );
 }

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .nvbrand {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bold;
+  }
+
+  .nvbrand img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .nvbrand span {
+    margin-left: 10px;
+  }

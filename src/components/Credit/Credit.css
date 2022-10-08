@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&family=Patua+One&display=swap');
+
+.credit {
+    background-color: #D8D9CF;
+    color: #000;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+}
+
+.credit a, .credit a:hover {
+    outline: none;
+    text-decoration: none;
+    color: #E26868;
+    font-family: 'Patua One', cursive;
+}
