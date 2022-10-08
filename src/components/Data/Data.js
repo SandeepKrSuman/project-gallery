@@ -13,6 +13,13 @@ const userData = [
     folderName: "SandeepHttpCats",
     projectTitle: "HTTP Cats",
   },
+  {
+    name: "Abhay Pareek",
+    ghurl: "https://github.com/Abhaypareek170",
+    imgName: "AbhaySimonGame.gif",
+    folderName: "AbhaySimonGame",
+    projectTitle: "Simon Game",
+  },
 ];
 
 export { userData };
