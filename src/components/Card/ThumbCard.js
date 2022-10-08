@@ -20,7 +20,7 @@ export default function ThumbCard(props) {
       <Credit
         userName={props.data.name}
         gh={props.data.ghurl}
-        art={props.data.artTitle}
+        ptitle={props.data.projectTitle}
       />
     </Col>
   );

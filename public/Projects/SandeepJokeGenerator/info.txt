@@ -3,5 +3,5 @@
     ghurl: "https://github.com/SandeepKrSuman",
     imgName: "jokeGenerator.gif",
     folderName: "SandeepJokeGenerator",
-    artTitle: "Joke Generator",
+    projectTitle: "Joke Generator",
 }

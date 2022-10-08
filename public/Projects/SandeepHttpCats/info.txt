@@ -3,5 +3,5 @@
     ghurl: "https://github.com/SandeepKrSuman",
     imgName: "httpCats.png",
     folderName: "SandeepHttpCats",
-    artTitle: "HTTP Cats",
+    projectTitle: "HTTP Cats",
 }

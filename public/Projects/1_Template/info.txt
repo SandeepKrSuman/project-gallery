@@ -1,0 +1,7 @@
+{
+    name: "Your Name",
+    ghurl: "https://github.com/UserName",
+    imgName: "demo.gif",
+    folderName: "YourFolderNameInPascalCase",
+    projectTitle: "Project Title",
+}
