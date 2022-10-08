@@ -1,7 +1,7 @@
 {
-    name: "Your Name",
-    ghurl: "https://github.com/UserName",
-    imgName: "demo.gif",
-    folderName: "YourFolderNameInPascalCase",
-    projectTitle: "Project Title",
+    name: "Vaibhav Tyagi",
+    ghurl: "https://github.com/vavy06",
+    imgName: "palindrome_check.png",
+    folderName: "palindromeChecker",
+    projectTitle: "Palindrome-checker",
 }
