@@ -1,0 +1,7 @@
+{
+    name: "Pratham Sharma",
+    ghurl: "https://github.com/pratham4434",
+    imgName: "counterapp.png",
+    folderName: "CounterApp",
+    projectTitle: "Counter App",
+}
