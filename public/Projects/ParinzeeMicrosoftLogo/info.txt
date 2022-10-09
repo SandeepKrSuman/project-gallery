@@ -2,6 +2,6 @@
     name: "Parinthapat Pengpun",
     ghurl: "https://github.com/parinzee",
     imgName: "ParinzeeMicrosoftLogo.gif",
-    folderName: "ParinzeeMicrsoftLogo",
+    folderName: "ParinzeeMicrsofotLogo",
     projectTitle: "Microsoft Logo",
 }

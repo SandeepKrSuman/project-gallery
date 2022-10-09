@@ -21,13 +21,6 @@ const userData = [
     projectTitle: "Simon Game",
   },
   {
-    name: "Parinthapat Pengpun",
-    ghurl: "https://github.com/parinzee",
-    imgName: "ParinzeeMicrosoftLogo.gif",
-    folderName: "ParinzeeMicrsoftLogo",
-    projectTitle: "Microsoft Logo",
-  },
-  {
     name: "Vaibhav Tyagi",
     ghurl: "https://github.com/06vavy",
     imgName: "VaibhavPalinCheck.png",
@@ -40,6 +33,13 @@ const userData = [
     imgName: "ShubhamTicTacToe.gif",
     folderName: "ShubhamTicTacToe",
     projectTitle: "Tic-Tac-Toe",
+  },
+  {
+    name: "Parinthapat Pengpun",
+    ghurl: "https://github.com/parinzee",
+    imgName: "ParinzeeMicrosoftLogo.gif",
+    folderName: "ParinzeeMicrsofotLogo",
+    projectTitle: "Microsoft Logo",
   },
   {
     name: "Yang Wei Hao",
