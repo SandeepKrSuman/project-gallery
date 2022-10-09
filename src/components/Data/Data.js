@@ -38,7 +38,11 @@ const userData = [
     name: "Parinthapat Pengpun",
     ghurl: "https://github.com/parinzee",
     imgName: "ParinzeeMicrosoftLogo.gif",
+<<<<<<< HEAD
     folderName: "ParinzeeMicrosoftLogo",
+=======
+    folderName: "ParinzeeMicrsofotLogo",
+>>>>>>> 49478035aadcc2b84ec0ec9f8b144c96736d0343
     projectTitle: "Microsoft Logo",
   },
   {
