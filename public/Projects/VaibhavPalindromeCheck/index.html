@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome-Checker</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">Palindrome Checker</span>
+        </div>
+    </nav>
+
+    <div style="margin-left:510px; margin-top:100px ;">
+        <h1>Enter the number here</h1>
+        <p style="padding-left:110px; padding-top:20px;"><input type="text" name="number" id="number"></p>
+        <button type="button" id="btn" class="btn btn-info" style="margin-left: 150px;">Check here!</button>
+    </div>
+
+    <p id="palin" class="text-success" style="margin-left: 580px; margin-top:40px;"></p>
+    <p id="not-palin" class="text-danger" style="margin-left: 580px; margin-top:40px;"></p>
+
+    <script>
+
+        function palin_check(str) {
+
+            let len = str.length;
+            let lftPtr = 0, rgtPtr = len - 1;
+
+            while (lftPtr < rgtPtr) {
+                if (str[lftPtr] != str[rgtPtr])
+                    return 0;
+                lftPtr++;
+                rgtPtr--;
+            }
+
+            return 1;
+        }
+
+
+        document.getElementById("btn").addEventListener("click", (e) => {
+            e.preventDefault();
+            let number = document.getElementById("number").value;
+            let chk = palin_check(number);
+
+            if (chk) {
+                let node2 = document.getElementById("not-palin");
+                node2.innerText = "";
+                let node = document.getElementById("palin");
+                node.innerText = "Hurray! This number is palindrome!";
+
+            }
+
+            else {
+                let node2 = document.getElementById("palin");
+                node2.innerText = "";
+                let node = document.getElementById("not-palin");
+                node.innerText = "Nope , this number is not palindrome :(";
+            }
+        })
+
+
+    </script>
+
+</body>
+
+</html>
