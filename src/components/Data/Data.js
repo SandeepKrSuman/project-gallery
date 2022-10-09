@@ -34,6 +34,13 @@ const userData = [
     folderName: "ShubhamTicTacToe",
     projectTitle: "Tic-Tac-Toe",
   },
+  {
+    name: "Yang Wei Hao",
+    ghurl: "https://github.com/whyang0808",
+    imgName: "stopWatch.gif",
+    folderName: "WeiHaoStopWatch",
+    projectTitle: "Stop Watch",
+  },
 ];
 
 export { userData };
