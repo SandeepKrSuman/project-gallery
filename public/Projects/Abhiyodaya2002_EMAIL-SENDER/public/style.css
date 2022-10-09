@@ -1,0 +1,42 @@
+body{
+    background: url("image.jpg");
+color: white;
+font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+    margin-top: 6px;
+    text-align: center;
+    font-weight: 530;
+    text-shadow:1.6px 1.6px grey;
+}
+.form-control{
+    background-color: #cbcbcb;
+    color:white;
+    box-shadow: 0px 2px 2px 0 grey;
+}
+.form-control::placeholder{
+    opacity: 0.9;
+    font-weight: 550;
+    color:rgb(27, 25, 25);
+}
+.form-control[type=file] {
+    color:black;
+    opacity: 0.9;
+}
+input[type="text"],[type="email"]{
+    color:black;
+    opacity: 0.9;
+}
+#textarea{
+    color:black;
+    opacity: 0.9; 
+}
+.my-button{
+    width:20vw;
+    }
+@media screen and (max-width: 400px)
+{
+.my-button{
+width:147px;
+}
+}
