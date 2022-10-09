@@ -55,6 +55,20 @@ const userData = [
     folderName: "UtkarshBMICalculator",
     projectTitle: "BMI Calculator",
   },
+  {
+    name: "Ayush Aryan",
+    ghurl: "https://github.com/aryanayush012",
+    imgName: "Ayush_aryan_Drum_Kit_Project.gif",
+    folderName: "Ayush_aryan_Drum_Kit_Project",
+    projectTitle: "Drum Kit",
+  },
+  {
+    name: "Aman Singh",
+    ghurl: "https://github.com/amansingh1373",
+    imgName: "counterproject.png",
+    folderName: "AmanCounter",
+    projectTitle: "Counter",
+  },
 ];
 
 export { userData };
