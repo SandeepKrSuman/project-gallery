@@ -48,6 +48,13 @@ const userData = [
     folderName: "WeiHaoStopWatch",
     projectTitle: "Stop Watch",
   },
+  {
+    name: "Utkarsh Maurya",
+    ghurl: "https://github.com/Uttkarrsh",
+    imgName: "UtkarshBMICalculator.gif",
+    folderName: "UtkarshBMICalculator",
+    projectTitle: "BMI Calculator",
+  },
 ];
 
 export { userData };
