@@ -20,13 +20,6 @@ const userData = [
     folderName: "AbhaySimonGame",
     projectTitle: "Simon Game",
   },
-  {
-    name: "Aman Singh",
-    ghurl:"https://github.com/amansingh1373",
-    imgName: "counterproject.png",
-    folderName: "Counter",
-    projectTitle: "Counter"
-  }
 ];
 
 export { userData };
