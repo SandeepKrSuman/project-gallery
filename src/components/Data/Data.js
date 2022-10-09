@@ -27,6 +27,13 @@ const userData = [
     folderName: "VaibhavPalindromeCheck",
     projectTitle: "Palindrome Check",
   },
+  {
+    name: "Shubham Choubey",
+    ghurl: "https://github.com/ishubham010",
+    imgName: "ShubhamTicTacToe.gif",
+    folderName: "ShubhamTicTacToe",
+    projectTitle: "Tic-Tac-Toe",
+  },
 ];
 
 export { userData };
