@@ -1,7 +1,7 @@
 {
     name: "Parinthapat Pengpun",
     ghurl: "https://github.com/parinzee",
-    imgName: "demo.gif",
+    imgName: "ParinzeeMicrosoftLogo.gif",
     folderName: "MicrsoftLogo",
     projectTitle: "Microsoft Logo",
 }
