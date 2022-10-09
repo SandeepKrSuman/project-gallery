@@ -1,0 +1,7 @@
+{
+    name: "Yang Wei Hao",
+    ghurl: "https://github.com/whyang0808",
+    imgName: "stopWatch.gif",
+    folderName: "WeiHaoStopWatch",
+    projectTitle: "Stop Watch",
+}
