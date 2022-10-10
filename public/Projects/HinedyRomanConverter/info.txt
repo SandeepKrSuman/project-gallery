@@ -1,0 +1,7 @@
+{
+    name: "Ahmed Hinedy",
+    ghurl: "https://github.com/hinedy",
+    imgName: "HinedyRomanConverter.png",
+    folderName: "HinedyRomanConverter",
+    projectTitle: "Roman Numeral Converter",
+}
