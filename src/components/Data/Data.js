@@ -69,6 +69,20 @@ const userData = [
     folderName: "AmanCounter",
     projectTitle: "Counter",
   },
+  {
+    name: "Abhishek Rohit",
+    ghurl: "https://github.com/imabhishek02",
+    imgName: "AbhishekBlackJack.gif",
+    folderName: "AbhishekBlackJack",
+    projectTitle: "BlackJack Game",
+  },
+  {
+    name: "Ahmed Hinedy",
+    ghurl: "https://github.com/hinedy",
+    imgName: "HinedyRomanConverter.png",
+    folderName: "HinedyRomanConverter",
+    projectTitle: "Roman Numeral Converter",
+  },
 ];
 
 export { userData };
