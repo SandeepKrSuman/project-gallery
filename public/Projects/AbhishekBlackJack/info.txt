@@ -1,0 +1,7 @@
+{
+    name: "Abhishek Rohit",
+    ghurl: "https://github.com/imabhishek02",
+    imgName: "AbhishekBlackJack.gif",
+    folderName: "AbhishekBlackJack",
+    projectTitle: "BlackJack Game",
+}
