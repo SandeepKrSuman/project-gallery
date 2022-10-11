@@ -83,6 +83,13 @@ const userData = [
     folderName: "HinedyRomanConverter",
     projectTitle: "Roman Numeral Converter",
   },
+  {
+    name: "Satish Yadav",
+    ghurl: "https://github.com/Satish8981",
+    imgName: "Satish_Snake_Game.gif",
+    folderName: "Satish_Snake_Game",
+    projectTitle: "Snake Game",
+  },
 ];
 
 export { userData };
