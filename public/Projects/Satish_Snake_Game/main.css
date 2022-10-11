@@ -1,0 +1,120 @@
+body {
+  background-color: rgb(35, 68, 75);
+  text-align: center;
+}
+
+
+#gameContainer {
+  
+  width: 40vw;
+  height: 40vw;
+  margin: 2vw auto;
+  background-color: #0c1021;
+  border: solid 10px slategrey;
+  border-radius: 10px;
+
+  -webkit-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
+}
+
+.gameBoardPixel {
+  
+	
+  width: 1vw;
+  height: 1vw;
+  border-radius: 10px;
+  float: left;
+}
+
+.snakeBodyPixel {
+  background-color: #0501fd;
+  box-shadow: 0 0 5px #fd6401;
+}
+
+.food {
+  background-color: #dc1043;
+}
+
+#scoreContainer {
+  width: 40vw;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.scoreBoard {
+  border-radius: 10px;
+  border: solid 5px slategrey;
+  color: dimgray;
+  background-color: #0c1021;
+  display: inline-block;
+  padding: 1vw;
+  width: 40%;
+
+  -webkit-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
+}
+
+#onScreenControllers {
+  display: none;
+}
+
+.developerDetails {
+  margin-top: 2vw;
+  display: flex;
+  flex-direction: column;
+  color: #0c1021;
+  font-family: monospace;
+}
+
+.developerDetails a {
+  color: #0c1021;
+}
+
+@media only screen and (max-width: 768px) {
+
+  #gameContainer {
+    width: 80vw;
+    height: 80vw;
+  }
+
+  .gameBoardPixel {
+    width: 2vw;
+    height: 2vw;
+  }
+
+  #scoreContainer {
+    width: 80vw;
+  }
+
+  #onScreenControllers {
+    width: 80vw;
+    margin: 5vw auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #onScreenControllers > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #onScreenControllers button {
+    background-color: transparent;
+    height: 20vw;
+    width: 20vw;
+    font-size: 10vw;
+    border: none;
+  }
+
+  #onScreenControllers button:focus {
+    outline: none;
+  }
+
+  #onScreenControllers button:active {
+    background-color: slategray;
+  }
+}
