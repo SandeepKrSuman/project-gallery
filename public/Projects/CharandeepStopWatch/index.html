@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round clr-btn">Dark Mode</span>
+            </label>
+            <div class="image-card">
+                <img src="clock.png" alt="clock">
+                <h3>Stopwatch</h3>
+            </div>
+            <div class="timer-container">
+                <select name="hour" id="hour">
+                    <option>&nbsp;Hour&nbsp;</option>
+                </select>
+                <select name="minute" id="minute">
+                    <option>Minute</option>
+                </select>
+                <select name="second" id="second">
+                    <option>Second</option>
+                </select>
+            </div>
+            <div class="set-timer">
+                <button>&nbsp;Start&nbsp;</button>
+                <button>&nbsp;Stop&nbsp;</button>
+            </div>
+            <div class="audio-container">
+                <audio controls  preload="metadata" loop controlsList="nodownload">
+                    <source src="Crazy Love.mp3" type="audio/mp3">
+                    Sorry, Your browser doesn't support audio.
+                  </audio>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
