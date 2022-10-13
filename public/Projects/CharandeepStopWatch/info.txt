@@ -1,7 +1,0 @@
-{
-    name: "Charandeep Kumar",
-    ghurl: "https://github.com/charandeep7",
-    imgName: "CharandeepStopWatch.gif",
-    folderName: "CharandeepStopWatch",
-    projectTitle: "StopWatch",
-}
