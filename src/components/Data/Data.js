@@ -90,6 +90,13 @@ const userData = [
     folderName: "Satish_Snake_Game",
     projectTitle: "Snake Game",
   },
+  {
+    name: "Charandeep Kumar",
+    ghurl: "https://github.com/charandeep7",
+    imgName: "CharandeepTimer.gif",
+    folderName: "CharandeepTimer",
+    projectTitle: "Timer",
+  },
 ];
 
 export { userData };
