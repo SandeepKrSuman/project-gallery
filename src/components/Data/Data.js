@@ -97,13 +97,6 @@ const userData = [
     folderName: "CharandeepTimer",
     projectTitle: "Timer",
   },
-  {
-    name: "Shubham Choubey",
-    ghurl: "https://github.com/ishubham010",
-    imgName: "ShubhamWeatherChecker.png",
-    folderName: "ShubhamWeatherChecker",
-    projectTitle: "Weather Checker",
-  },
 ];
 
 export { userData };
