@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="snake.css">
+</head>
+<body>
+
+    <div class="game-board">
+        <h2 class="pontos">0 pontos</h2>
+        <img src="img/gato.gif" class="personagem">
+        <img src="./img/bloco.png" class="obstaculo">
+        <img src="./img/nuvens.png" class="nuvens">
+    </div>
+
+    <div class="fimJogo d-none">
+        <h1>Fim do Jogo</h1>
+        <button class="btn" onclick="window.location.reload()">
+            <img src="./img/reiniciar.png">
+        </button>
+    </div>
+
+
+    <footer>
+        <script src="snake.js"></script>
+    </footer>
+</body>
+</html>
