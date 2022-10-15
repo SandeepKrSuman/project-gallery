@@ -1,0 +1,7 @@
+  {
+    name: "Clara Santos",
+    ghurl: "https://github.com/claraSantosmf",
+    imgName: "ClaraSum.png",
+    folderName: "ClaraSum",
+    projectTitle: "To Do List",
+  },
