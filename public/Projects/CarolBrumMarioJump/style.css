@@ -1,0 +1,128 @@
+/* RESET BÁSICO CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.game-board {
+  width: 100%;
+  height: 500px;
+  border-bottom: 15px solid rgb(35, 160, 35);
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(#87CEEB, #E0F6FF);
+}
+
+.pipe {
+  position: absolute;
+  bottom: 0;
+  width: 80px;
+  /* right: -80px; */
+  animation: pipe-animation 4s infinite linear;
+}
+
+.mario {
+  width: 150px;
+  position: absolute;
+  bottom: 0;
+}
+
+.jump {
+  animation: jump 500ms ease-out;
+}
+
+.clouds {
+ width: 550px;
+ position: absolute;
+ animation: clouds-animation 20s infinite linear;
+}
+
+@keyframes pipe-animation {
+  from {
+    right: -80px;
+  }
+
+  to {
+    right: 100%;
+  }
+}
+
+@keyframes jump {
+  0% {
+    bottom: 0;
+  }
+
+  40% {
+    bottom: 180px;
+  }
+
+  50% {
+    bottom: 180px;
+  }
+
+  60% {
+    bottom: 180px;
+  }
+
+  100% {
+    bottom: 0;
+  }
+}
+
+@keyframes clouds-animation {
+  from {
+    right: -550px;
+  }
+
+  to {
+    right: 100%;
+  }
+}
+
+
+.instructions {
+ font-family: 'Courier New', Courier, monospace;
+ text-align: center;
+ font-size: 14px;
+ color: #333;
+ margin-top: 40px;
+}
+
+body {
+  background-color: #F8F8FF;
+  flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+   flex-direction: column;
+}
+
+footer {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  position: absolute;
+  margin-bottom: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 5px;
+  color: #333;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline i {
+  font-size: 24px;
+  margin: 0 10px;
+  color: rgb(0, 0, 0);
+}
+
+.list-inline i:hover {
+  color: #87CEEB;
+}
