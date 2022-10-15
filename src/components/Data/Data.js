@@ -97,6 +97,13 @@ const userData = [
     folderName: "CharandeepTimer",
     projectTitle: "Timer",
   },
+  {
+    name: "Giulia Amaral",
+    ghurl: "https://github.com/giuliaamaral",
+    imgName: "catgame.gif",
+    folderName: "GiuliaCatGame",
+    projectTitle: "Cat Game",
+  },
 ];
 
 export { userData };
