@@ -1,0 +1,52 @@
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%; 
+    width: 100%; 
+    justify-content: center;
+    
+}
+input{
+    height: 5%; 
+    width: 30%;
+    margin: 2%;
+}
+
+button{
+    box-sizing: border-box;
+    margin: 2%;
+    background: #069cc2; 
+    border-radius: 6px;
+    padding: 15px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+}
+
+.conteiner{
+  height: 80%  
+}
+
+
+body{
+    height: 95vh; 
+    background-color: #87cefa87 ; 
+}
+
+.resu{
+    width: 100%; 
+    display: flex;
+}
+
+.resultado{
+    width:  50%;
+}
+
+.container-index{
+    height: 80% ;}
+
+.lista-index{
+    display: flex;
+}
