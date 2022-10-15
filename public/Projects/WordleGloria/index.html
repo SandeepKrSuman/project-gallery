@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="app.js" defer></script>
+    <title>Wordle</title>
+  </head>
+  <body>
+    <div class="topo">
+      <p>Wordle</p>
+    </div>
+
+    <span class="material-symbols-outlined"> menu </span>
+    <span class="material-symbols-outlined"> leaderboard </span>
+
+    <span class="material-symbols-outlined"> settings </span>
+
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+    >
+      <path
+        fill="var(--color-tone-1)"
+        d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"
+      ></path>
+    </svg>
+
+    <hr />
+    <div class="tabuleiro">
+      <div class="linha">
+        <div id="l1c1" class="quadrado"></div>
+        <div id="l1c2" class="quadrado"></div>
+        <div id="l1c3" class="quadrado"></div>
+        <div id="l1c4" class="quadrado"></div>
+        <div id="l1c5" class="quadrado"></div>
+      </div>
+      <div class="linha">
+        <div id="l2c1" class="quadrado"></div>
+        <div id="l2c2" class="quadrado"></div>
+        <div id="l2c3" class="quadrado"></div>
+        <div id="l2c4" class="quadrado"></div>
+        <div id="l2c5" class="quadrado"></div>
+      </div>
+      <div class="linha">
+        <div id="l3c1" class="quadrado"></div>
+        <div id="l3c2" class="quadrado"></div>
+        <div id="l3c3" class="quadrado"></div>
+        <div id="l3c4" class="quadrado"></div>
+        <div id="l3c5" class="quadrado"></div>
+      </div>
+      <div class="linha">
+        <div id="l4c1" class="quadrado"></div>
+        <div id="l4c2" class="quadrado"></div>
+        <div id="l4c3" class="quadrado"></div>
+        <div id="l4c4" class="quadrado"></div>
+        <div id="l4c5" class="quadrado"></div>
+      </div>
+      <div class="linha">
+        <div id="l5c1" class="quadrado"></div>
+        <div id="l5c2" class="quadrado"></div>
+        <div id="l5c3" class="quadrado"></div>
+        <div id="l5c4" class="quadrado"></div>
+        <div id="l5c5" class="quadrado"></div>
+      </div>
+      <div class="linha">
+        <div id="l6c1" class="quadrado"></div>
+        <div id="l6c2" class="quadrado"></div>
+        <div id="l6c3" class="quadrado"></div>
+        <div id="l6c4" class="quadrado"></div>
+        <div id="l6c5" class="quadrado"></div>
+      </div>
+    </div>
+
+    <div class="teclado" onclick="tecladoClique(event)">
+      <div class="linha">
+        <button class="botao bt-cinza-claro">q</button>
+        <button class="botao bt-cinza-claro">w</button>
+        <button class="botao bt-cinza-claro">e</button>
+        <button class="botao bt-cinza-claro">r</button>
+        <button class="botao bt-cinza-claro">t</button>
+        <button class="botao bt-cinza-claro">y</button>
+        <button class="botao bt-cinza-claro">u</button>
+        <button class="botao bt-cinza-claro">i</button>
+        <button class="botao bt-cinza-claro">o</button>
+        <button class="botao bt-cinza-claro">p</button>
+      </div>
+
+      <div class="linha">
+        <div class="botao bt-cinza-claro" class="spacer-half"></div>
+        <button class="botao bt-cinza-claro">a</button>
+        <button class="botao bt-cinza-claro">s</button>
+        <button class="botao bt-cinza-claro">d</button>
+        <button class="botao bt-cinza-claro">f</button>
+        <button class="botao bt-cinza-claro">g</button>
+        <button class="botao bt-cinza-claro">h</button>
+        <button class="botao bt-cinza-claro">j</button>
+        <button class="botao bt-cinza-claro">k</button>
+        <button class="botao bt-cinza-claro">l</button>
+        <div class="botao bt-cinza-claro" class="spacer-half"></div>
+      </div>
+
+      <div class="linha">
+        <button class="botao bt-cinza-claro bt-enter">Enter</button>
+        <button class="botao bt-cinza-claro">z</button>
+        <button class="botao bt-cinza-claro">x</button>
+        <button class="botao bt-cinza-claro">c</button>
+        <button class="botao bt-cinza-claro">v</button>
+        <button class="botao bt-cinza-claro">b</button>
+        <button class="botao bt-cinza-claro">n</button>
+        <button class="botao bt-cinza-claro">m</button>
+        <button class="botao bt-cinza-claro">Del</button>
+        <div class="botao bt-cinza-claro">
+          <!-- <span class="material-symbols-outlined" data-key="del"> backspace </span> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
