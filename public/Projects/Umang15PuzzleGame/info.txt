@@ -1,0 +1,7 @@
+{
+    name: "Umang Singla",
+    ghurl: "https://github.com/umang-singla",
+    imgName: "Umang15PuzzleGame.jpeg",
+    folderName: "Umang15PuzzleGame",
+    projectTitle: "Sliding Puzzle",
+}
