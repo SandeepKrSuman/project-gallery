@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Puzzle Game</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="15 piece Puzzle Game">
+        <meta name="keywords" content="Puzzle, Game">
+        <meta name="author" content="Umang Singla">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id="top-bar">Sliding Puzzle</div>
+        <div id="big-box">
+            <div id="row1" class="row">
+                <div id="cell11" class="tile1" onClick='clickCell(1,1)' ontouchstart="swipeStart(event)" ontouchmove="swipeMove(event)" ontouchend="swipeEnd(event,1,1)"></div>
+                <div id="cell12" class="tile2" onClick='clickCell(1,2)' ontouchstart="swipeStart(event)" ontouchmove="swipeMove(event)" ontouchend="swipeEnd(event,1,2)"></div>
+                <div id="cell13" class="tile3" onClick='clickCell(1,3)' ontouchstart="swipeStart(event)" ontouchmove="swipeMove(event)" ontouchend="swipeEnd(event,1,3)"></div>
+                <div id="cell14" class="tile4" onClick='clickCell(1,4)' ontouchstart="swipeStart(event)" ontouchmove="swipeMove(event)" ontouchend="swipeEnd(event,1,4)"></div>
+            </div>
+            <div id="row2" class="row">
+                <div id="cell21" class="tile5" onClick='clickCell(2,1)' ontouchstart="swipeStart(event)" ontouchmove="swipeMove(event)" ontouchend="swipeEnd(event,2,1)"></div>
+                <div id="cell22" class="tile6" onClick='clickCell(2,2)' ontouchstart="swipeStart(event)" ontouchmove="swipeMove(event)" ontouchend="swipeEnd(event,2,2)"></div>
+                <div id="cell23" class="tile7" onClick='clickCell(2,3)' ontouchstart="swipeStart(event)" ontouchmove="swipeMove(event)" ontouchend="swipeEnd(event,2,3)"></div>
+                <div id="cell24" class="tile8" onClick='clickCell(2,4)' ontouchstart="swipeStart(event)" ontouchmove="swipeMove(event)" ontouchend="swipeEnd(event,2,4)"></div>
+            </div>
+            <div id="row3" class="row">
+                <div id="cell31" class="tile9" onClick='clickCell(3,1)' ontouchstart="swipeStart(event)" ontouchmove="swipeMove(event)" ontouchend="swipeEnd(event,3,1)"></div>
+                <div id="cell32" class="tile10" onClick='clickCell(3,2)' ontouchstart="swipeStart(event)" ontouchmove="swipeMove(event)" ontouchend="swipeEnd(event,3,2)"></div>
+                <div id="cell33" class="tile11" onClick='clickCell(3,3)' ontouchstart="swipeStart(event)" ontouchmove="swipeMove(event)" ontouchend="swipeEnd(event,3,3)"></div>
+                <div id="cell34" class="tile12" onClick='clickCell(3,4)' ontouchstart="swipeStart(event)" ontouchmove="swipeMove(event)" ontouchend="swipeEnd(event,3,4)"></div>
+            </div>
+            <div id="row4" class="row">
+                <div id="cell41" class="tile13" onClick='clickCell(4,1)' ontouchstart="swipeStart(event)" ontouchmove="swipeMove(event)" ontouchend="swipeEnd(event,4,1)"></div>
+                <div id="cell42" class="tile14" onClick='clickCell(4,2)' ontouchstart="swipeStart(event)" ontouchmove="swipeMove(event)" ontouchend="swipeEnd(event,4,2)"></div>
+                <div id="cell43" class="tile15" onClick='clickCell(4,3)' ontouchstart="swipeStart(event)" ontouchmove="swipeMove(event)" ontouchend="swipeEnd(event,4,3)"></div>
+                <div id="cell44" class="tile16" onClick='clickCell(4,4)' ontouchstart="swipeStart(event)" ontouchmove="swipeMove(event)" ontouchend="swipeEnd(event,4,4)"></div>
+            </div>
+        </div>
+        <div class="moves">Moves</div>
+        <div class="timer">Time <br> 0s</div>
+        <div class="score">Score <br>0</div>
+        <div ><a class="btn" onclick="location.reload()">New Game</a></div>
+
+        <div class="dev">Developed by Umang Singla</div>
+
+        <div class="rules">
+            <p style="font-size: 200%;">Rules:-</p>
+            <ul>
+                <li>You have to arrange the blocks as shown<br>
+                    <img class="solved-img" src="solved.jpg">
+                </li>
+                <li>Click or swipe to move the block to the black position.</li>
+            </ul>
+        </div>
+        
+        <script src="script.js"></script>
+
+    </body>
+</html>
