@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    color: #ffff;
+}
+
+.game-board {
+    border-bottom: 20px solid rgb(79, 226, 86);
+    width: 100%;
+    height: 90vh;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgb(55, 168, 233), rgba(199, 226, 201, 0.5) )
+}
+
+.obstaculo{
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    animation: obstaculo-animacao 1.5s infinite linear;
+
+}
+
+
+.personagem{
+    width: 7%;
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+}
+
+.jump{
+    animation: pular 0.5s ease-in-out;
+}
+
+.nuvens{
+    position: absolute;
+    animation: nuvens-animacao 5s infinite linear;
+}
+
+.fimJogo{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffff;
+}
+
+.fimJogo .btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.fimJogo .btn img{
+    width: 50%;
+}
+
+.d-none{
+    display: none;
+}
+
+@keyframes obstaculo-animacao {
+    from {
+        right: 0;
+    }
+    to {
+        right: 100%;
+    }
+    
+}
+
+@keyframes nuvens-animacao {
+    from {
+        right: -300px;
+    }
+    to {
+        right: 100%;
+    }
+    
+}
+
+
+@keyframes pular {
+    0%{
+        bottom: 0;
+    }
+
+    40%, 50%, 60%{
+        bottom: 180px;
+    }
+
+
+    100%{
+        bottom: 0;
+    }
+    
+}

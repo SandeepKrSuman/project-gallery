@@ -1,0 +1,511 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    box-sizing: border-box;
+    background-image: url(back.jfif);
+    background-size: cover;
+}
+#top-bar{
+    display: inline-block;
+    position: relative;
+    background-image: url(bg1.jpg);
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Dancing Script', cursive;
+    width: 32.5vw;
+    left: 20vw;
+    border-radius: 1vw;
+    margin-top: 5vw;
+    color: whitesmoke;
+    border: 2px yellow solid;
+}
+#big-box{
+    position: relative;
+    left: 20vw;
+    display: block;
+    width: 33vw;
+}
+.row{
+    display: table-row;
+    width: 33vw;
+    text-align: center;
+}
+.tile1{
+    display: table-cell;
+    width: 8vw;
+    background-image: url(bg1.jpg);
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+    transition: all;
+    transition-delay: 0s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    border-radius: 10%;
+    color: white;
+}
+.tile2{
+    display: table-cell;
+    width: 8vw;
+    background-image: url(bg1.jpg);
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+    transition: all;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    border-radius: 10%;
+    color: white;
+}
+.tile3{
+    display: table-cell;
+    width: 8vw;
+    background-image: url(bg1.jpg);
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+    transition: all;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    border-radius: 10%;
+    color: white;
+}
+.tile4{
+    display: table-cell;
+    width: 8vw;
+    background-image: url(bg1.jpg);
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+    transition: all;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    border-radius: 10%;
+    color: white;
+}
+.tile5{
+    display: table-cell;
+    width: 8vw;
+    background-image: url(bg1.jpg);
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+    transition: all;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    border-radius: 10%;
+    color: white;
+}
+.tile6{
+    display: table-cell;
+    width: 8vw;
+    background-image: url(bg1.jpg);
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+    transition: all;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    border-radius: 10%;
+    color: white;
+}
+.tile7{
+    display: table-cell;
+    width: 8vw;
+    background-image: url(bg1.jpg);
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+    transition: all;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    border-radius: 10%;
+    color: white;
+}
+.tile8{
+    display: table-cell;
+    width: 8vw;
+    background-image: url(bg1.jpg);
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+    transition: all;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    border-radius: 10%;
+    color: white;
+}
+.tile9{
+    display: table-cell;
+    width: 8vw;
+    background-image: url(bg1.jpg);
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+    transition: all;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    border-radius: 10%;
+    color: white;
+}
+.tile10{
+    display: table-cell;
+    width: 8vw;
+    background-image: url(bg1.jpg);
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+    transition: all;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    border-radius: 10%;
+    color: white;
+}
+.tile11{
+    display: table-cell;
+    width: 8vw;
+    background-image: url(bg1.jpg);
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+    transition: all;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    border-radius: 10%;
+    color: white;
+}
+.tile12{
+    display: table-cell;
+    width: 8vw;
+    background-image: url(bg1.jpg);
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+    transition: all;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    border-radius: 10%;
+    color: white;
+}
+.tile13{
+    display: table-cell;
+    width: 8vw;
+    background-image: url(bg1.jpg);
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+    transition: all;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    border-radius: 10%;
+    color: white;
+}
+.tile14{
+    display: table-cell;
+    width: 8vw;
+    background-image: url(bg1.jpg);
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+    transition: all;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    border-radius: 10%;
+    color: white;
+}
+.tile15{
+    display: table-cell;
+    width: 8vw;
+    background-image: url(bg1.jpg);
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+    transition: all;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    border-radius: 10%;
+    color: white;
+}
+.tile16{
+    display: table-cell;
+    width: 8vw;
+    background-image: url(bg2.jfif);
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+    transition: all;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    border-radius: 10%;
+    color: white;
+}
+
+.btn{
+    position: absolute;
+    font-size: 3vw;
+    display: block;
+    background-image: linear-gradient(to bottom right, rgb(211, 72, 114), rgb(255, 0, 21));
+    color: white;
+    top: 28vw;
+    padding: 1vh 1vw 1vh 1vw;
+    cursor: pointer;
+    left: 58vw;
+    border-radius: 10px;
+    margin-left: 1vw;
+    width: 20vw;
+    text-align: center;
+}
+.btn:hover{
+    background-image: linear-gradient(to bottom right, rgb(165, 48, 83), rgb(89, 33, 141));
+}
+.moves{
+    position: absolute;
+    font-size: 3vw;
+    display: block;
+    background-image: linear-gradient(to bottom right, rgb(211, 72, 114), rgb(255, 0, 21));
+    color: white;
+    top: 5vw;
+    padding: 1vh 1vw 1vh 1vw;
+    margin-left: 1vw;
+    border-radius: 10px;
+    text-align: center;
+    left: 58vw;
+}
+.timer{
+    position: absolute;
+    font-size: 3vw;
+    display: block;
+    background-image: linear-gradient(to bottom right, rgb(211, 72, 114), rgb(255, 0, 21));
+    color: white;
+    top: 5vw;
+    padding: 1vh 1vw 1vh 1vw;
+    margin-left: 1vw;
+    border-radius: 10px;
+    text-align: center;
+    left: 70vw;
+}
+.score{
+    position: absolute;
+    top: 16vw;
+    left: 65vw;
+    font-size: 3vw;
+    display: block;
+    background-image: linear-gradient(to bottom right, rgb(211, 72, 114), rgb(255, 0, 21));
+    color: white;
+    padding: 1vh 1vw 1vh 1vw;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.dev{
+    color: white;
+    position: absolute;
+    top: 95vh;
+    margin: auto;
+    width: 70%;
+    display: block;
+    left: 20vw;
+    font-size: 150%;
+}
+.rules{
+    color: white;
+    position: relative;
+    top: 80px;
+    left: 20vw;
+    font-size: 150%;
+}
+
+.solved-img{
+    width: 10vw;
+}
+
+
+@media screen and (max-width: 426px){
+    #top-bar{
+        top: 100px;
+        width: 79vw;
+        left: 10vw;
+        font-size: 300%;
+        border-radius: 5px;
+    }
+    #big-box{
+        top: 100px;
+        left: 10vw;
+        width: 80vw;
+        
+    }
+    .row{
+        width: 60vw;
+    }
+    .tile1{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile2{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile3{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile4{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile5{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile6{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile7{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile8{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile9{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile10{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile11{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile12{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile13{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile14{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile15{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile16{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .moves{
+        font-size: 180%;
+        left: 10vw;
+        top: 10px;
+    }
+    .score{
+        font-size: 180%;
+        left: 43vw;
+        top: 10px;
+    }
+    .timer{
+        font-size: 180%;
+        left: 70vw;
+        top: 10px;
+    }
+    .btn{
+        position: relative;
+        top: 150px;
+        font-size: 180%;
+        left: 9vw;
+        width: 80vw;
+        text-align: center;
+    }
+
+    .dev{
+        position: relative;
+        top: 180px;
+        left: 2vw;
+    }
+
+    .rules{
+        color: white;
+        position: relative;
+        top: 240px;
+        left: 10vw;
+        font-size: 150%;
+    }
+    
+    .solved-img{
+        width: 30vw;
+    }
+}

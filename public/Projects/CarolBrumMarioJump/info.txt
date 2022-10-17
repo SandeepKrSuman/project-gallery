@@ -1,0 +1,7 @@
+{
+    name: "Carol Brum",
+    ghurl: "https://github.com/brumcaroline",
+    imgName: "MarioJump.jpg",
+    folderName: "CarolBrumMarioJump",
+    projectTitle: "Mario Jump",
+}

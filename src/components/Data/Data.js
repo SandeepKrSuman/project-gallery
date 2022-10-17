@@ -103,7 +103,28 @@ const userData = [
     imgName: "TimerFocus.png",
     folderName: "TimerFocus",
     projectTitle: "Focus Timer 2.0",
-  }
+  },
+  {
+    name: "Giulia Amaral",
+    ghurl: "https://github.com/giuliaamaral",
+    imgName: "catgame.gif",
+    folderName: "GiuliaCatGame",
+    projectTitle: "Cat Game",
+  },
+  {
+    name: "Umang Singla",
+    ghurl: "https://github.com/umang-singla",
+    imgName: "Umang15PuzzleGame.jpeg",
+    folderName: "Umang15PuzzleGame",
+    projectTitle: "Sliding Puzzle",
+  },
+  {
+    name: "Carol Brum",
+    ghurl: "https://github.com/brumcaroline",
+    imgName: "MarioJump.jpg",
+    folderName: "CarolBrumMarioJump",
+    projectTitle: "Mario Jump",
+  },
 ];
 
 export { userData };
