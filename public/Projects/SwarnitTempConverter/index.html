@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Temperature converter</title>
+    
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+    <h1>Temperature Converter</h1>
+    <div class="convert-container">
+      <div class="input-container" id="input-box">
+        <select id="inp-type">
+          <option value="cs" selected>Celsius</option>
+          <option value="fh">Fahrenheit</option>
+          <option value="ke">Kelvin</option>
+        </select>
+        <input id="inp-value" type="number" onchange="convert()" placeholder="Enter value">
+        
+      </div> 
+      <img class="convert-arrow" src="./pngfind.com-sun-path-arrow-png-384443.png"/>
+      <div class="output-container">
+        <select id="out-type" onchange="convert()">
+          <option value="cs">Celsius</option>
+          <option value="fh" selected>Fahrenheit</option>
+          <option value="ke">Kelvin</option>
+        </select>
+        <div id="output">Output</div>
+        
+      </div>
+    </div>
+  </body>
+
+
+  <script src="jscript.js"></script>
+</html>
