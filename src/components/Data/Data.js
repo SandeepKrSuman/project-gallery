@@ -56,6 +56,13 @@ const userData = [
     projectTitle: "BMI Calculator",
   },
   {
+    name: "Swarnit Sinha",
+    ghurl: "https://github.com/SwarnitSinha",
+    imgName: "swarnit_temperature_converter.png",
+    folderName: "SwarnitTempConverter",
+    projectTitle: "Temperature Converter",
+  },
+  {
     name: "Ayush Aryan",
     ghurl: "https://github.com/aryanayush012",
     imgName: "Ayush_aryan_Drum_Kit_Project.gif",
