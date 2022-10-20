@@ -1,0 +1,7 @@
+{
+    name: "Swarnit Sinha",
+    ghurl: "https://github.com/SwarnitSinha",
+    imgName: "swarnit_temperature_converter.png",
+    folderName: "SwarnitTempConverter",
+    projectTitle: "Temperature Converter",
+}

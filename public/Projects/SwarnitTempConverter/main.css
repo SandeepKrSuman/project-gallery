@@ -1,0 +1,108 @@
+/* *{
+  border: 1px solid red;
+} */
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #92cbdd;
+  text-align: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.convert-container{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(255, 254, 254, 0.897);
+  height: 400px;
+  width: 800px;
+  background: rgba( 255, 255, 255, 0.3 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 7px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+}
+
+.heading{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+.converter{
+  color: white;
+}
+
+input{
+  padding: 13px;
+  border-radius: 0px 0px 12px 12px;
+  outline: none;
+  border: none;
+  margin: 0px;
+  font-size: 16px;
+  text-align: center;
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 12px;
+
+}
+.output-container{
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 12px;
+}
+#output{
+  background-color: white;
+  width: 220px;
+  height: 20px;
+  padding: 13px;
+  border-radius: 0px 0px 12px 12px;
+  outline: none;
+  /* border: none; */
+  margin: 0px;
+  font-size: 16px;
+  /* color: rgb(56, 56, 56); */
+}
+select{
+  padding: 10px 0px;
+  border-radius: 12px 12px 0px 0px;
+  margin-left: 0px;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  background: white;
+  text-align: center;
+}
+
+.convert-arrow{
+  /* position: absolute; */
+  width: 134px;
+  height: 47px;
+  /* left: 240px;
+  top: 81px; */
+  margin: 0px 12px;
+  /* background: rgba(185, 224, 74, 0.88); */
+  /* border: 1px solid rgba(255, 255, 255, 0.59);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  border-radius: 2px;
+  font-family: 'jsMath-cmti10';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.78);
+}
+.convert-btn:hover{
+  transform: scale(1.03);
+}
