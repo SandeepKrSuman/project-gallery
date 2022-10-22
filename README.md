@@ -33,7 +33,7 @@ A collection of awesome JavaScript projects😁
 - **Plagiarism is strictly prohibited**. Write your own code. Take project inspirations from various resources but do not blindly copy paste them.
 - Comment on the issue you prefer to work on and wait for it to be assigned to you.
 - **Do not** work on any issue which is **not assigned** to you.
-- Generally issue will be assigned on a _first come, first serve basis_. However if the issue is labeled 'good first issue' it will preferebly be assigned to someone who is new to open source.
+- Generally issue will be assigned on a _first come, first serve basis_. However if the issue is labeled 'good first issue' it will preferably be assigned to someone who is new to open source.
 - You can create your own issue if you want to fix a bug, add new feature, add a project, etc. In that case too, wait for it to be assigned to you only then start working on it.
 - **Do not create a Pull Request** without an issue assigned under your name.
 - All PR's must be made from a branch. Do not use master branch for making a PR. Create a seperate branch before making a PR.
@@ -55,16 +55,16 @@ A collection of awesome JavaScript projects😁
 - Go to Projects folder present inside public `/public/Projects`.-. Create a folder with your name followed by the project name. For example `SandeepJokeGenerator`. Follow PascalCase naming convention.
 - Put all the files - html, css, js, images, etc. - inside this created folder.
 - Make sure the html file is named `index.html`.
-- After completing the project implementation take a screen shot or gif of the project and paste it inside the assets folder present inside public `pubic/assets`. Adding a gif is preferred.
+- After completing the project implementation take a screen shot or gif of the project and paste it inside the assets folder present inside public `pubic/assets`. Adding a gif is preferred.commiting
 - Create a `info.txt` file and add all the details carefully. Look at the template for reference.
 
 ### View Added Project
 
 - Copy the content of `info.txt` file that you have created in previous steps.
-- Go to `src/components/Data/Data.js` and paste the copied content at proper place and save it. This change is only for viewing the project and should be removed before commiting.
+- Go to `src/components/Data/Data.js` and paste the copied content at proper place and save it. This change is only for viewing the project and should be removed before committing.
 - Run the App to view your project.
 
-- Please undo all the changes you made to the `Data` folder before commiting i.e. remove the content you pasted inside `Data.js` file.
+- Please undo all the changes you made to the `Data` folder before committing i.e. remove the content you pasted inside `Data.js` file.
 
 ### Run the APP
 
