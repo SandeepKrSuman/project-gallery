@@ -13,7 +13,7 @@ A collection of awesome JavaScript projects😁
 
 ## Table of contents 👓
 
-  * [Hactober Guidelines🦾](#hactober-guidelines)
+  * [Hactoberfest Guidelines🦾](#hactoberfest-guidelines)
      * [Contributing Guidelines](#contributing-guidelines)
      * [Steps to Contribute](#steps-to-contribute)
         * [Initial Steps](#initial-steps)
@@ -25,7 +25,7 @@ A collection of awesome JavaScript projects😁
   * [Programming Languages Used](#programming-languages-used)
 
 
-## Hactober Guidelines
+# Hactoberfest Guidelines
 ![hacktoberfest-banner](./public/assets/hacktoberfest2022.jpg)
 
 ## Contributing Guidelines
