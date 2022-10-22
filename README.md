@@ -1,3 +1,31 @@
+<h1 align="center">Project Gallery</h1>
+<h4 align = "center">A collection of awesome JavaScript projects😁</h4>
+<div align="center">
+
+<img src="https://img.shields.io/badge/hacktoberfest-2022-blueviolet" alt="Hacktober Badge"/>
+<a href="https://github.com/SandeepKrSuman/project-gallery" ><img src="https://img.shields.io/badge/Contributions-welcome-green.svg" alt="Contributions" /></a>
+<a href="https://github.com/SandeepKrSuman/project-gallery/pulls"><img src="https://img.shields.io/github/issues-pr/SandeepKrSuman/project-gallery" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/SandeepKrSuman/project-gallery/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/SandeepKrSuman/project-gallery"></a>
+<img src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FSandeepKrSuman%2Fproject-gallery">
+<img src="	https://img.shields.io/github/forks/SandeepKrSuman/project-gallery">
+
+</div>
+
+## Table of contents 👓
+
+  * [Hactoberfest Guidelines🦾](#hactoberfest-guidelines)
+     * [Contributing Guidelines](#contributing-guidelines)
+     * [Steps to Contribute](#steps-to-contribute)
+        * [Initial Steps](#initial-steps)
+        * [Add a Project](#add-a-project)
+        * [View Added Project](#view-added-project)
+        * [Run the APP](#run-the-app)
+        * [Final Steps](#final-steps)
+  * [Try Website](#try-website)
+  * [Programming Languages Used](#programming-languages-used)
+
+
+# Hactoberfest Guidelines
 ![hacktoberfest-banner](./public/assets/hacktoberfest2022.jpg)
 
 ## Contributing Guidelines
@@ -5,7 +33,7 @@
 - **Plagiarism is strictly prohibited**. Write your own code. Take project inspirations from various resources but do not blindly copy paste them.
 - Comment on the issue you prefer to work on and wait for it to be assigned to you.
 - **Do not** work on any issue which is **not assigned** to you.
-- Generally issue will be assigned on a _first come, first serve basis_. However if the issue is labeled 'good first issue' it will preferebly be assigned to someone who is new to open source.
+- Generally issue will be assigned on a _first come, first serve basis_. However if the issue is labeled 'good first issue' it will preferably be assigned to someone who is new to open source.
 - You can create your own issue if you want to fix a bug, add new feature, add a project, etc. In that case too, wait for it to be assigned to you only then start working on it.
 - **Do not create a Pull Request** without an issue assigned under your name.
 - All PR's must be made from a branch. Do not use master branch for making a PR. Create a seperate branch before making a PR.
@@ -15,29 +43,28 @@
 
 ### Initial Steps
 
-1. Star this repo and then **Fork** it. Forking this repo will create its copy to your own GitHub.
-2. Go to the forked repo on your GitHub and copy the HTTPS URL by clicking on the **code** button which is highlighted in green colour.
-3. Clone the forked repository by going to your terminal/ command line. Use `git clone <copied URL>`.
-4. CD into `project-gallery`.
-5. Run this command `git remote add upstream https://github.com/SandeepKrSuman/project-gallery.git`.
-6. Create a new branch. `git checkout -b branchName`.
+- Star this repo and then **Fork** it. Forking this repo will create its copy to your own GitHub.
+- Go to the forked repo on your GitHub and copy the HTTPS URL by clicking on the **code** button which is highlighted in green colour.
+- Clone the forked repository by going to your terminal/ command line. Use `git clone <copied URL>`.
+- CD into `project-gallery`.
+- Run this command `git remote add upstream https://github.com/SandeepKrSuman/project-gallery.git`.
+- Create a new branch. `git checkout -b branchName`.
 
 ### Add a Project
 
-1. Go to Projects folder present inside public `/public/Projects`.
-2. Create a folder with your name followed by the project name. For example `SandeepJokeGenerator`. Follow PascalCase naming convention.
-3. Put all the files - html, css, js, images, etc. - inside this created folder.
-4. Make sure the html file is named `index.html`.
-5. After completing the project implementation take a screen shot or gif of the project and paste it inside the assets folder present inside public `pubic/assets`. Adding a gif is preferred.
-6. Create a `info.txt` file and add all the details carefully. Look at the template for reference.
+- Go to Projects folder present inside public `/public/Projects`.-. Create a folder with your name followed by the project name. For example `SandeepJokeGenerator`. Follow PascalCase naming convention.
+- Put all the files - html, css, js, images, etc. - inside this created folder.
+- Make sure the html file is named `index.html`.
+- After completing the project implementation take a screen shot or gif of the project and paste it inside the assets folder present inside public `pubic/assets`. Adding a gif is preferred.commiting
+- Create a `info.txt` file and add all the details carefully. Look at the template for reference.
 
 ### View Added Project
 
-1. Copy the content of `info.txt` file that you have created in previous steps.
-2. Go to `src/components/Data/Data.js` and paste the copied content at proper place and save it. This change is only for viewing the project and should be removed before commiting.
-3. Run the App to view your project.
+- Copy the content of `info.txt` file that you have created in previous steps.
+- Go to `src/components/Data/Data.js` and paste the copied content at proper place and save it. This change is only for viewing the project and should be removed before committing.
+- Run the App to view your project.
 
-- Please undo all the changes you made to the `Data` folder before commiting i.e. remove the content you pasted inside `Data.js` file.
+- Please undo all the changes you made to the `Data` folder before committing i.e. remove the content you pasted inside `Data.js` file.
 
 ### Run the APP
 
@@ -55,3 +82,15 @@ npm i && npm start
 4. Go to your forked GitHub repo. There you will see an option to create pull request.
 5. Create pull request. Give relevant title and describe the changes you made.
 6. Wait for your pull request to be merged.
+
+## Try Website
+[👉jspgallery.netlify.app](https://jspgallery.netlify.app)
+
+## Tech Stacks Used
+
+<p>
+  <img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge" />
+  <img alt="Css" src="https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=white&style=for-the-badge" />
+  <img alt="React" src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white&style=for-the-badge" />
+</p>
