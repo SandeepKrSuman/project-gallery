@@ -5,7 +5,7 @@ A collection of awesome JavaScript projects😁
 <img src="https://img.shields.io/badge/hacktoberfest-2022-blueviolet" alt="Hacktober Badge"/>
 <a href="https://github.com/SandeepKrSuman/project-gallery" ><img src="https://img.shields.io/badge/Contributions-welcome-green.svg" alt="Contributions" /></a>
 
-<a href="https://github.com/SandeepKrSuman/project-gallery/pulls"><img src="https://img.shields.io/github/issues-pr/crescentpartha/CheatSheets-for-Developers" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/SandeepKrSuman/project-gallery/pulls"><img src="https://img.shields.io/github/issues-pr/SandeepKrSuman/project-gallery" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/SandeepKrSuman/project-gallery/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/SandeepKrSuman/project-gallery"></a>
 <img src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FSandeepKrSuman%2Fproject-gallery">
 <img src="	https://img.shields.io/github/forks/SandeepKrSuman/project-gallery">
