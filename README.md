@@ -1,14 +1,14 @@
 <h1 align="center">Project Gallery</h1>
-A collection of awesome JavaScript projects😁
+<h4 align = "center">A collection of awesome JavaScript projects😁</h4>
 <div align="center">
 
 <img src="https://img.shields.io/badge/hacktoberfest-2022-blueviolet" alt="Hacktober Badge"/>
 <a href="https://github.com/SandeepKrSuman/project-gallery" ><img src="https://img.shields.io/badge/Contributions-welcome-green.svg" alt="Contributions" /></a>
-
 <a href="https://github.com/SandeepKrSuman/project-gallery/pulls"><img src="https://img.shields.io/github/issues-pr/SandeepKrSuman/project-gallery" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/SandeepKrSuman/project-gallery/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/SandeepKrSuman/project-gallery"></a>
 <img src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FSandeepKrSuman%2Fproject-gallery">
 <img src="	https://img.shields.io/github/forks/SandeepKrSuman/project-gallery">
+
 </div>
 
 ## Table of contents 👓
@@ -86,8 +86,11 @@ npm i && npm start
 ## Try Website
 [👉jspgallery.netlify.app](https://jspgallery.netlify.app)
 
-## Programming Languages Used
+## Tech Stacks Used
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+<p>
+  <img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge" />
+  <img alt="Css" src="https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=white&style=for-the-badge" />
+  <img alt="React" src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white&style=for-the-badge" />
+</p>
