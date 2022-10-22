@@ -1,3 +1,31 @@
+<h1 align="center">Project Gallery</h1>
+A collection of awesome JavaScript projects😁
+<div align="center">
+
+<img src="https://img.shields.io/badge/hacktoberfest-2022-blueviolet" alt="Hacktober Badge"/>
+<a href="https://github.com/SandeepKrSuman/project-gallery" ><img src="https://img.shields.io/badge/Contributions-welcome-green.svg" alt="Contributions" /></a>
+
+<a href="https://github.com/SandeepKrSuman/project-gallery/pulls"><img src="https://img.shields.io/github/issues-pr/crescentpartha/CheatSheets-for-Developers" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/SandeepKrSuman/project-gallery/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/SandeepKrSuman/project-gallery"></a>
+<img src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FSandeepKrSuman%2Fproject-gallery">
+<img src="	https://img.shields.io/github/forks/SandeepKrSuman/project-gallery">
+</div>
+
+## Table of contents 👓
+
+  * [Hactober Guidelines🦾](#hactober-guidelines)
+     * [Contributing Guidelines](#contributing-guidelines)
+     * [Steps to Contribute](#steps-to-contribute)
+        * [Initial Steps](#initial-steps)
+        * [Add a Project](#add-a-project)
+        * [View Added Project](#view-added-project)
+        * [Run the APP](#run-the-app)
+        * [Final Steps](#final-steps)
+  * [Try Website](#try-website)
+  * [Programming Languages Used](#programming-languages-used)
+
+
+## Hactober Guidelines
 ![hacktoberfest-banner](./public/assets/hacktoberfest2022.jpg)
 
 ## Contributing Guidelines
@@ -15,27 +43,26 @@
 
 ### Initial Steps
 
-1. Star this repo and then **Fork** it. Forking this repo will create its copy to your own GitHub.
-2. Go to the forked repo on your GitHub and copy the HTTPS URL by clicking on the **code** button which is highlighted in green colour.
-3. Clone the forked repository by going to your terminal/ command line. Use `git clone <copied URL>`.
-4. CD into `project-gallery`.
-5. Run this command `git remote add upstream https://github.com/SandeepKrSuman/project-gallery.git`.
-6. Create a new branch. `git checkout -b branchName`.
+- Star this repo and then **Fork** it. Forking this repo will create its copy to your own GitHub.
+- Go to the forked repo on your GitHub and copy the HTTPS URL by clicking on the **code** button which is highlighted in green colour.
+- Clone the forked repository by going to your terminal/ command line. Use `git clone <copied URL>`.
+- CD into `project-gallery`.
+- Run this command `git remote add upstream https://github.com/SandeepKrSuman/project-gallery.git`.
+- Create a new branch. `git checkout -b branchName`.
 
 ### Add a Project
 
-1. Go to Projects folder present inside public `/public/Projects`.
-2. Create a folder with your name followed by the project name. For example `SandeepJokeGenerator`. Follow PascalCase naming convention.
-3. Put all the files - html, css, js, images, etc. - inside this created folder.
-4. Make sure the html file is named `index.html`.
-5. After completing the project implementation take a screen shot or gif of the project and paste it inside the assets folder present inside public `pubic/assets`. Adding a gif is preferred.
-6. Create a `info.txt` file and add all the details carefully. Look at the template for reference.
+- Go to Projects folder present inside public `/public/Projects`.-. Create a folder with your name followed by the project name. For example `SandeepJokeGenerator`. Follow PascalCase naming convention.
+- Put all the files - html, css, js, images, etc. - inside this created folder.
+- Make sure the html file is named `index.html`.
+- After completing the project implementation take a screen shot or gif of the project and paste it inside the assets folder present inside public `pubic/assets`. Adding a gif is preferred.
+- Create a `info.txt` file and add all the details carefully. Look at the template for reference.
 
 ### View Added Project
 
-1. Copy the content of `info.txt` file that you have created in previous steps.
-2. Go to `src/components/Data/Data.js` and paste the copied content at proper place and save it. This change is only for viewing the project and should be removed before commiting.
-3. Run the App to view your project.
+- Copy the content of `info.txt` file that you have created in previous steps.
+- Go to `src/components/Data/Data.js` and paste the copied content at proper place and save it. This change is only for viewing the project and should be removed before commiting.
+- Run the App to view your project.
 
 - Please undo all the changes you made to the `Data` folder before commiting i.e. remove the content you pasted inside `Data.js` file.
 
@@ -55,3 +82,12 @@ npm i && npm start
 4. Go to your forked GitHub repo. There you will see an option to create pull request.
 5. Create pull request. Give relevant title and describe the changes you made.
 6. Wait for your pull request to be merged.
+
+## Try Website
+[👉jspgallery.netlify.app](https://jspgallery.netlify.app)
+
+## Programming Languages Used
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
