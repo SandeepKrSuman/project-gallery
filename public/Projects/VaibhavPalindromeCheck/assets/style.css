@@ -1,0 +1,71 @@
+body {
+  width: 100%;
+
+}
+
+wrapper {}
+
+nav {
+  width: 100%;
+  display: flex;
+  background-color: aqua;
+}
+
+h1 {
+  text-align: center;
+}
+
+span {
+  width: 100%;
+  background-color: aqua;
+}
+
+text-nav {
+  text-decoration: rgb(27, 149, 255);
+
+}
+
+
+text_number {}
+
+h1 {
+  font-family: cursive;
+  font-weight: bold;
+  text-decoration: underline;
+  text-shadow: 2px 2px grey;
+}
+
+
+@media screen and (max-width: 700px) {
+  body {
+    width: 100%;
+
+  }
+
+  wrapper {
+    display: fixed;
+
+  }
+
+  nav {
+    width: 110%;
+    background: white;
+    display: flex;
+  }
+
+  span {}
+
+  text-nav {
+    text-decoration: aliceblue;
+
+  }
+
+  input-label {
+    border: 5px, solid;
+    color: lightblue;
+
+  }
+
+
+
+}
