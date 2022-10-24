@@ -125,6 +125,13 @@ const userData = [
     folderName: "CarolBrumMarioJump",
     projectTitle: "Mario Jump",
   },
+  {
+    name: "Swapnil Aichbhaumik",
+    ghurl: "https://github.com/Swap-nil-2003",
+    imgName: "SwapnilAichbhaumik_QuizWebApp.png",
+    folderName: "SwapnilAichbhaumik_QuizWebApp",
+    projectTitle: "Quiz Web App",
+  },
 ];
 
 export { userData };
