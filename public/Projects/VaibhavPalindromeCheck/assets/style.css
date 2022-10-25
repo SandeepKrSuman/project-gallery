@@ -3,12 +3,13 @@ body {
 
 }
 
-wrapper {}
+wrapper {
+  width: auto;
+}
 
 nav {
   width: 100%;
   display: flex;
-  background-color: aqua;
 }
 
 h1 {
@@ -17,55 +18,86 @@ h1 {
 
 span {
   width: 100%;
-  background-color: aqua;
 }
 
 text-nav {
-  text-decoration: rgb(27, 149, 255);
+  font-family: cursive;
 
 }
 
 
 text_number {}
 
-h1 {
-  font-family: cursive;
-  font-weight: bold;
-  text-decoration: underline;
-  text-shadow: 2px 2px grey;
-}
+h1 {}
 
 
 @media screen and (max-width: 700px) {
-  body {
-    width: 100%;
+  body {}
 
-  }
-
-  wrapper {
-    display: fixed;
-
-  }
 
   nav {
-    width: 110%;
-    background: white;
-    display: flex;
+    min-height: 100%;
+    position: relative;
+    background-color: #343a40;
+    justify-content: space-between;
+    margin-left: -5px;
+    margin-top: -5px;
   }
 
-  span {}
+  h1 {}
 
-  text-nav {
-    text-decoration: aliceblue;
+  p.text-menu {
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'cursive';
+    align-items: center;
+    white-space: nowrap;
+    line-height: inherit;
+    margin-left: 30px;
 
   }
 
-  input-label {
-    border: 5px, solid;
+  text-number {}
+
+  .text_underline {
+    margin-left: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 2px 2px grey;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-inline: 30px;
+
+
+  }
+
+
+  style-input {}
+
+  input {
+    padding-left: 70px;
     color: lightblue;
-
+    border: 5px solid;
+    margin-inline: 30px;
+    font-size: 15px;
+    background-color: field;
   }
 
+  p.box-type {}
 
+  .btn {
+    width: 150px;
+    background-color: aqua;
+    transition-duration: 0.4s;
+    text-decoration: aliceblue;
+    margin-left: 100px;
+  }
+
+  .button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
 
 }
