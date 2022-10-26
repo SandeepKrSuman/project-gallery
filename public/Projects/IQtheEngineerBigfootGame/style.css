@@ -1,0 +1,9 @@
+body {
+    background-image: url('assets/forest.jpg');
+}
+
+img {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
