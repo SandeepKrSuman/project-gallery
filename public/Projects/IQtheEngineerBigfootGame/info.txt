@@ -1,7 +1,7 @@
 {
     name: "Iman Crooks",
     ghurl: "https://github.com/iqtheengineer",
-    imgName: "assets/bigfoot.gif",
+    imgName: "bigfoot.gif",
     folderName: "IQtheEngineerBigfootGame",
     projectTitle: "Can You Find Bigfoot? Game",
 }
