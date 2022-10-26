@@ -1,0 +1,7 @@
+{
+    name: "Rajeev Krishna",
+    ghurl: "https://github.com/radzhiv25",
+    imgName: "QrCodeReader.gif",
+    folderName: "RadzhivQrReader",
+    projectTitle: "Qr Code Reader",
+}
