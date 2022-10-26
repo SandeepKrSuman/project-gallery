@@ -132,6 +132,20 @@ const userData = [
     folderName: "SwapnilAichbhaumik_QuizWebApp",
     projectTitle: "Quiz Web App",
   },
+  {
+    name: "Iman Crooks",
+    ghurl: "https://github.com/iqtheengineer",
+    imgName: "bigfoot.gif",
+    folderName: "IQtheEngineerBigfootGame",
+    projectTitle: "Can You Find Bigfoot? Game",
+  },
+  {
+    name: "Rajeev Krishna",
+    ghurl: "https://github.com/radzhiv25",
+    imgName: "QrCodeReader.gif",
+    folderName: "RadzhivQrReader",
+    projectTitle: "Qr Code Reader",
+  },
 ];
 
 export { userData };
