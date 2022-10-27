@@ -12,25 +12,27 @@
 
 <body>
     <header>
-        <nav class="nav">
-            <h1>
-                <p class="text-menu">Palindrome Checker</p>
-            </h1>
-        </nav>
-
-        <div class="text_underline">
-            <h1>Enter the number here.</h1>
-            <div class="text_number">
-                <p class="style-input">
-                    <input class="box-type" type="text" name="number" id="number">
-                </p>
-                <button type="button" id="btn" class="btn btn-info" style="margin-left: 150px;">Check here!</button>
-            </div>
+        <div class="container">
+            <nav class="nav">
+                <p class="palindrome">Palindrome Checker</p>
+            </nav>
         </div>
 
-        <p id="palin" class="text-success" style="margin-left: 580px; margin-top:40px;"></p>
-        <p id="not-palin" class="text-danger" style="margin-left: 580px; margin-top:40px;"></p>
-
+        <div class="text_number">
+            <h1 class="text_number_here">Enter the number here</h1>
+        </div>
+        <div class="style-input">
+            <p class="style-input">
+                <input class="box-type" type="text" name="number" id="number">
+            </p>
+        </div>
+        <div class="button">
+            <button type="button" id="btn">Check here!</button>
+        </div>
+        <div class="yes-or-no-palin">
+            <p id="palin" class="text-success"></p>
+            <p id="not-palin" class="text-danger"></p>
+        </div>
         <script>
 
             function palin_check(str) {
