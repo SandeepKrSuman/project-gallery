@@ -1,0 +1,7 @@
+{
+    name: "Lindsey Howard",
+    ghurl: "https://github.com/CodeLikeAGirl29",
+    imgName: "lindseyk-minimal-design.png",
+    folderName: "CodeLikeAGirl29",
+    projectTitle: "About Me",
+}

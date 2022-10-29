@@ -1,0 +1,677 @@
+﻿/* Import Settings */
+@import url('setting.less');
+
+/**
+*   mCard (HTML)
+*   Copyright © mCard by beshleyua. All Rights Reserved.
+**/
+
+/* TABLE OF CONTENTS
+	1. Basic
+	2. Container
+    3. Columns
+    4. Typography
+    5. Links
+    6. Buttons
+    7. Preloader
+    8. Forms
+    9. Lists
+    10. Code
+    11. Tables
+    12. Alignment
+    13. Text Formating
+    14. Blockquote
+    15. Animations
+*/
+
+/* 1. Basic */
+html {
+	margin-right: 0!important;
+}
+
+body {
+    margin: 0;
+	padding: 0;
+	border: none;
+	font-family: @default-font;
+	font-size: @default-size;
+	color: @default-color;
+	background: @light-color;
+	line-height: 20px;
+	letter-spacing: @default-letter-spacing;
+	font-weight: 300;
+}
+
+.page {
+	position: relative;
+	overflow: hidden;
+	padding: 320px 0 0 0;
+	@media (max-width: 720px) {
+		padding: 202px 0 0 0;
+	}
+}
+
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.clear {
+	clear: both;
+}
+
+.mobile {
+	display: none;
+	@media (max-width: 720px) {
+		display: block;
+	}
+}
+
+.desctop {
+	display: block;
+	@media (max-width: 720px) {
+		display: none;
+	}
+}
+
+/* 2. Container */
+.container {
+	position: relative;
+	background: @light-color;
+}
+
+.wrapper {
+	position: relative;
+	margin: 0 auto;
+	max-width: 1100px;
+	@media (max-width: 1080px) {
+		margin: 0 20px;
+	}
+	@media (max-width: 420px) {
+		margin: 0 10px;
+	}
+}
+
+/* 3. Columns */
+.row {
+	position: relative;
+	margin: 0 -10px;
+	padding: 0 0 30px 0;
+	&:last-child {
+		padding: 0;
+	}
+	.col {
+		padding: 0 12px;
+		@media (min-width: 1080px) {
+			&.col-d-12, &.col-d-11, &.col-d-10, &.col-d-9, &.col-d-8, &.col-d-7, &.col-d-6, &.col-d-5, &.col-d-4, &.col-d-3, &.col-d-2, &.col-d-1 {
+				float: left;
+			}
+			&.col-d-12 {
+				width: 99.996%;
+			}
+			&.col-d-11 {
+				width: 91.663%;
+			}
+			&.col-d-10 {
+				width: 83.333%;
+			}
+			&.col-d-9 {
+				width: 74.997%;
+			}
+			&.col-d-8 {
+				width: 66.664%;
+			}
+			&.col-d-7 {
+				width: 58.331%;
+			}
+			&.col-d-6 {
+				width: 49.998%;
+			}
+			&.col-d-5 {
+				width: 41.665%;
+			}
+			&.col-d-4 {
+				width: 33.332%;
+			}
+			&.col-d-3 {
+				width: 24.999%;
+			}
+			&.col-d-2 {
+				width: 16.666%;
+			}
+			&.col-d-1 {
+				width: 8.333%;
+			}
+		}
+		@media (max-width: 1079px) {
+			padding: 10px;
+			&.col-t-12, &.col-t-11, &.col-t-10, &.col-t-9, &.col-t-8, &.col-t-7, &.col-t-6, &.col-t-5, &.col-t-4, &.col-t-3, &.col-t-2, &.col-t-1 {
+				float: left;
+			}
+			&.col-t-12 {
+				width: 99.996%;
+			}
+			&.col-t-11 {
+				width: 91.663%;
+			}
+			&.col-t-10 {
+				width: 83.333%;
+			}
+			&.col-t-9 {
+				width: 74.997%;
+			}
+			&.col-t-8 {
+				width: 66.664%;
+			}
+			&.col-t-7 {
+				width: 58.331%;
+			}
+			&.col-t-6 {
+				width: 49.998%;
+			}
+			&.col-t-5 {
+				width: 41.665%;
+			}
+			&.col-t-4 {
+				width: 33.332%;
+			}
+			&.col-t-3 {
+				width: 24.999%;
+			}
+			&.col-t-2 {
+				width: 16.666%;
+			}
+			&.col-t-1 {
+				width: 8.333%;
+			}
+		}
+		@media (max-width: 720px) {
+			padding: 8px;
+			&.col-m-12, &.col-m-11, &.col-m-10, &.col-m-9, &.col-m-8, &.col-m-7, &.col-m-6, &.col-m-5, &.col-m-4, &.col-m-3, &.col-m-2, &.col-m-1 {
+				float: left;
+			}
+			&.col-m-12 {
+				width: 99.996%;
+			}
+			&.col-m-11 {
+				width: 91.663%;
+			}
+			&.col-m-10 {
+				width: 83.333%;
+			}
+			&.col-m-9 {
+				width: 74.997%;
+			}
+			&.col-m-8 {
+				width: 66.664%;
+			}
+			&.col-m-7 {
+				width: 58.331%;
+			}
+			&.col-m-6 {
+				width: 49.998%;
+			}
+			&.col-m-5 {
+				width: 41.665%;
+			}
+			&.col-m-4 {
+				width: 33.332%;
+			}
+			&.col-m-3 {
+				width: 24.999%;
+			}
+			&.col-m-2 {
+				width: 16.666%;
+			}
+			&.col-m-1 {
+				width: 8.333%;
+			}
+		}
+	}
+	&:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+}
+
+/* 4. Typography */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+	font-family: @default-font;
+	margin: 0;
+	margin-bottom: 15px;
+	color: @dark-color;
+}
+
+h1 {
+	font-size: @h1-size;
+	line-height: @h1-size + 6;
+}
+
+h2 {
+	font-size: @h2-size;
+	line-height: @h2-size + 6;
+}
+
+h3 {
+	font-size: @h3-size;
+	line-height: @h3-size + 6;
+}
+
+h4 {
+	font-size: @h4-size;
+	line-height: @h4-size + 6;
+}
+
+h5 {
+	font-size: @h5-size;
+	line-height: @h5-size + 6;
+}
+
+h6 {
+	font-size: @h6-size;
+	line-height: @h6-size + 6;
+}
+
+p {
+	font-size: @default-size;
+	line-height: @line-height;
+	padding: 0;
+	margin: 0 0 15px 0;
+}
+
+strong {
+	font-weight: 500;
+	color: @dark-color;
+}
+
+.date {
+	margin: 5px 5px 5px 0;
+	padding: 1px 5px;
+	display: inline-block;
+	vertical-align: top;
+	background: @active-color;
+	font-size: @extra-small-size;
+	color: @white-color;
+	.border-radius(2px);
+	.transition(@default-transition);
+}
+
+.category {
+	margin: 5px 5px 5px 0;
+	padding: 1px 5px;
+	display: inline-block;
+	vertical-align: top;
+	background: @extra-active-color;
+	font-size: @extra-small-size;
+	color: @dark-color;
+	.border-radius(2px);
+	.transition(@default-transition);
+}
+
+a.category {
+	&:hover {
+		color: @white-color;
+	}
+}
+
+/* 5. Links */
+a { 
+	color: @dark-color;
+	text-decoration: none;
+	opacity: 1;
+	outline: none;
+	&:hover {
+		text-decoration: none;
+		color: @extra-active-color;
+	}
+}
+
+/* 6. Buttons */
+a.btn, .btn {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+	height: 42px;
+	line-height: 42px;
+	padding: 0;
+	font-weight: 400;
+	text-align: center;
+	color: @white-color;
+	font-size: @small-size;
+	font-family: @default-font;
+	background: @active-color;
+	cursor: pointer;
+	.transition(@default-transition);
+	.border-radius(2px);
+	&.extra {
+		background: @extra-active-color;
+		color: @dark-color;
+	}
+	.circle {
+		padding: 0 30px;
+	}
+	@media (max-width: 560px) {
+		width: 100%;
+	}
+}
+
+/* 7. Preloader */
+.preloader {
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: @light-color;
+	z-index: 1000;
+	.spinner {
+		width: 40px;
+		height: 40px;
+		display: inline-block;
+		position: relative;
+		.double-bounce1, .double-bounce2 {
+			width: 100%;
+			height: 100%;
+			background: @active-color;
+			opacity: 0.7;
+			position: absolute;
+			top: 0;
+			left: 0;
+			-webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+			animation: sk-bounce 2.0s infinite ease-in-out;
+			.border-radius(50%);
+		}
+		.double-bounce2 {
+			-webkit-animation-delay: -1.0s;
+			animation-delay: -1.0s;
+		}
+	}
+}
+
+/* 8. Forms */
+input,
+textarea,
+button {
+	margin: 0 0 20px 0;
+	padding: 0;
+	display: block;
+	width: 100%;
+	height: 52px;
+	background: none;
+	font-family: @default-font;
+	font-size: @default-size;
+	font-weight: 300;
+	color: @default-color;
+	border: none;
+	border-bottom: @form-border;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	resize: none;
+	outline: 0;
+	.transition(@default-transition);
+	&:focus {
+		color: @dark-color;
+		border-bottom: @form-border-hover;
+	}
+}
+
+textarea {
+	height: 115px;
+	padding: 15px 0 0 0;
+}
+
+button {
+	width: auto;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	border-bottom: @form-border;
+	cursor: pointer;
+	color: @dark-color;
+	&:hover {
+		border-bottom: @form-border-hover;
+	}
+}
+
+label, legend { 
+	display: block;
+	padding-bottom: 10px;
+	font-family: @default-font;
+	font-size: @default-size;
+}
+
+fieldset {
+	border-width: 0; 
+	padding: 0; 
+}
+
+input[type="checkbox"], 
+input[type="radio"] { 
+	display: inline; 
+}
+
+::-webkit-input-placeholder {
+	color: @dark-color;
+}
+
+:-moz-placeholder { 
+	color: @dark-color;
+}
+
+::-moz-placeholder {
+	color: @dark-color;
+}
+
+:-ms-input-placeholder {  
+	color: @dark-color;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+	color: @dark-color;
+}
+
+input:focus:-moz-placeholder, textarea:focus:-moz-placeholder { 
+	color: @dark-color;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+	color: @dark-color;
+}
+
+input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {  
+	color: @dark-color;
+}
+
+input.error, textarea.error {
+	border-bottom: 1px solid @error-color!important;
+}
+
+label.error {
+	display: none!important;
+}
+
+input.error::-moz-placeholder, 
+textarea.error::-moz-placeholder {
+	color: @error-color;
+}
+
+input.error:-moz-placeholder, 
+textarea.error:-moz-placeholder {
+	color: @error-color;
+}
+
+input.error:-ms-input-placeholder, 
+textarea.error:-ms-input-placeholder {
+	color: @error-color;
+}
+
+input.error::-webkit-input-placeholder, 
+textarea.error::-webkit-input-placeholder {
+	color: @error-color;
+}
+
+/* 9. Lists */
+ol, ul { 
+	list-style: none;
+	margin-top: 0px; 
+	margin-bottom: 0px;
+	padding-left: 0px; 
+}
+
+ul ul, 
+ul ol,
+ol ol, 
+ol ul { 
+	margin-bottom: 0px;
+}
+
+li { 
+	margin-bottom: 0px;
+}
+
+/* 10. Code */
+code {
+	background: @light-color;
+	font-size: 16px;
+	font-family: @default-font;
+	margin: 20px 0;
+	padding: 10px 20px;
+}
+
+/* 11. Tables */
+table {
+	width: 100%;
+	margin: 30px 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+th {
+	font-weight: 500;
+	border: none;
+	border-bottom: 1px solid @light-color;
+	color: @dark-color;
+	padding: 12px 15px; 
+	text-align: left;
+}
+
+td {
+	border: none;
+	border-bottom: 1px solid @light-color;
+	padding: 12px 15px; 
+	text-align: left;
+	color: @default-color;
+}
+
+/* 12. Alignment */
+.align-center {
+	text-align: center !important;
+}
+
+.align-right {
+	text-align: right !important;
+}
+
+.align-left {
+	text-align: left !important;
+}
+
+.pull-right { 
+	float: right !important;
+}
+
+.pull-left { 
+	float: left !important; 
+}
+
+.pull-none { 
+	float: none !important;
+}
+
+.full-width {
+	max-width: 100% !important;
+	width: 100% !important; 
+}
+
+.full-max-width {
+	max-width: 100% !important;
+	width: auto !important;
+}
+
+.centrize {
+	display: table !important;
+	table-layout: fixed !important;
+	height: 100% !important;
+	position: relative !important;
+}
+
+.vertical-center {
+	display: table-cell !important;
+	vertical-align: middle !important;
+}
+
+/* 13. Text Formating */
+.text-uppercase {
+	text-transform: uppercase !important;
+}
+
+.text-lowercase {
+	text-transform: lowercase !important;
+}
+
+.text-capitalize {
+	text-transform: capitalize !important;
+}
+
+.text-regular {
+	font-weight: 400 !important;
+}
+
+.text-bold {
+	font-weight: 700 !important;
+}
+
+.text-italic {
+	font-style: italic !important;
+}
+
+/* 14. Blockquote */
+blockquote {
+	font-family: @default-font;
+}
+
+/* 15. Animations */
+
+/*Animate Button Hover*/
+.ink {
+	display: block;
+	position: absolute;
+	background: @extra-color;
+	border-radius: 100%;
+	.transform(scale(0));
+}
+
+.btn_animated {
+	.circle {
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+}
+
+.animate {
+	-webkit-animation: ripple 0.6s linear;
+	animation: ripple 0.6s linear;
+}
+
+@keyframes ripple {
+    100% {
+    	opacity: 0;
+    	transform: scale(4);
+    	-webkit-transform: scale(4);
+    }
+}

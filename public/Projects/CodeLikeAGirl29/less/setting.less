@@ -1,0 +1,84 @@
+﻿/* Setting */
+
+/* Colors */
+@default-color: #868686;
+@extra-color: rgba(0,0,0,0.2);
+@dark-color: #363636;
+@light-color: #eee;
+@white-color: #fefefe;
+@active-color: #689f38;
+@extra-active-color: #efefef;
+@error-color: red;
+
+/* Fonts */
+@default-font: 'Roboto', helvetica;
+@icons-font: 'Ionicons';
+
+/* Fonts Size */
+@large-size: 17px;
+@default-size: 16px;
+@small-size: 14px;
+@extra-small-size: 13px;
+@title-size: 42px;
+@subtitle-size: 16px;
+@h1-size: 36px;
+@h2-size: 32px;
+@h3-size: 28px;
+@h4-size: 24px;
+@h5-size: 20px;
+@h6-size: 16px;
+
+/* Icons Size */
+@large-icon-size: 30px;
+@default-icon-size: 24px;
+@extra-icon-size: 21px;
+@small-icon-size: 16px;
+
+/* Letter-Spacing */
+@default-letter-spacing: 0.01em;
+@extra-letter-spacing: 0.03em;
+
+/* Line Height */
+@line-height: 25px;
+
+/* Box Shadow */
+@circle-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+@default-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+@hover-box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+
+/* Transitions */
+@default-transition: all 0.2s ease 0s;
+@extra-transition: all 0.4s ease 0s;
+
+/* Forms */
+@form-border: 1px solid @extra-color;
+@form-border-hover: 1px solid @dark-color;
+
+/* Params */
+.border-radius(@radius) {
+	border-radius: @radius;
+	-moz-border-radius: @radius;
+	-webkit-border-radius: @radius;
+	-khtml-border-radius: @radius;
+}
+
+.transition(@param){
+	transition: @param;
+	-moz-transition: @param;
+	-webkit-transition: @param;
+	-o-transition: @param;
+}
+
+.transform(@param) {
+	transform: @param;
+	-webkit-transform: @param;
+	-moz-transform: @param;
+	-o-transform: @param;
+}
+
+.box-shadow(@param){
+	box-shadow: @param;
+	-moz-box-shadow: @param;
+	-webkit-box-shadow: @param;
+	-khtml-box-shadow: @param;
+}
