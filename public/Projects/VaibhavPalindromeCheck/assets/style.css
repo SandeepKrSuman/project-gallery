@@ -1,0 +1,167 @@
+@media screen and (max-width: 685px) {
+  body {}
+
+  container {}
+
+
+  .nav {
+    background-color: #006AD6;
+    width: 400px;
+    height: 80px;
+    padding-top: 10%;
+    margin: -10px 0px -10px -10px;
+  }
+
+  p.palindrome {
+    color: whitesmoke;
+    font-family: system-ui;
+    font-size: 25px;
+    font: bold;
+    margin-left: 20px;
+    font-weight: bold;
+
+  }
+
+
+
+  .text_number {
+    margin: 40px 40px 40px 30px;
+
+  }
+
+  .text_number_here {
+    font-family: "sans-serif";
+    font-size: 21px;
+    color: #626366;
+    margin: 40px 0px -10px 25px;
+
+  }
+
+  input[type=text] {
+    margin-left: 80px;
+    padding-top: 10px;
+    width: 150px;
+    border-color: #8ea3e2;
+    border-style: solid;
+    margin: center;
+  }
+
+  button {
+    margin-left: 110px;
+    width: 100px;
+    height: 30px;
+    transition-duration: 0.4s;
+    background-color: whitesmoke;
+    border-color: #70afee;
+    color: grey;
+  }
+
+  button:hover {
+    background-color: #006AD6;
+    color: white;
+  }
+
+  p#palin.text-success {
+    font-family: "sans-serif";
+    margin-left: 40px;
+    margin-top: 20px;
+    color: #626366;
+    font-weight: bold;
+
+
+  }
+
+  p#not-palin.text-danger {
+    font-family: "sans-serif";
+    margin-left: 40px;
+    margin-top: 20px;
+    color: #626366;
+    font-weight: bold;
+
+
+  }
+
+
+}
+
+@media (min-width: 900px) {
+
+  body {}
+
+  nav {
+    margin: -10px 0px 0px -10px;
+    background-color: #006AD6;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+
+
+
+  p.palindrome {
+    color: whitesmoke;
+    font-family: system-ui;
+    margin-left: 15%;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+
+
+  .text_number_here {
+    text-align: center;
+    font-family: "sans-serif";
+    font-size: 25px;
+    margin: 80px 0px 0px -200px;
+    color: #626366;
+
+  }
+
+  text_number {
+    margin-left: 20px;
+  }
+
+
+
+  input[type=text] {
+    margin-left: 780px;
+    padding-top: 10px;
+    width: 150px;
+    border-color: #8ea3e2;
+    border-style: solid;
+    margin: center;
+  }
+
+  button {
+    margin-left: 820px;
+    width: 100px;
+    height: 30px;
+    background-color: whitesmoke;
+    transition-duration: 0.4s;
+    border-color: #70afee;
+    color: grey;
+  }
+
+  button:hover {
+    background-color: #006AD6;
+    color: white;
+  }
+
+  p#palin.text-success {
+    font-family: "sans-serif";
+    margin-left: 740px;
+    color: #626366;
+    font-weight: bold;
+
+  }
+
+  p#not-palin.text-danger {
+    font-family: "sans-serif";
+    margin-left: 740px;
+    margin-top: 40px;
+    color: #626366;
+    font-weight: bold;
+
+  }
+
+}
