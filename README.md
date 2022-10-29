@@ -13,19 +13,19 @@
 
 ## Table of contents 👓
 
-  * [Hactoberfest Guidelines🦾](#hactoberfest-guidelines)
-     * [Contributing Guidelines](#contributing-guidelines)
-     * [Steps to Contribute](#steps-to-contribute)
-        * [Initial Steps](#initial-steps)
-        * [Add a Project](#add-a-project)
-        * [View Added Project](#view-added-project)
-        * [Run the APP](#run-the-app)
-        * [Final Steps](#final-steps)
-  * [Try Website](#try-website)
-  * [Programming Languages Used](#programming-languages-used)
-
+- [Hactoberfest Guidelines🦾](#hactoberfest-guidelines)
+  - [Contributing Guidelines](#contributing-guidelines)
+  - [Steps to Contribute](#steps-to-contribute)
+    - [Initial Steps](#initial-steps)
+    - [Add a Project](#add-a-project)
+    - [View Added Project](#view-added-project)
+    - [Run the APP](#run-the-app)
+    - [Final Steps](#final-steps)
+- [Try Website](#try-website)
+- [Programming Languages Used](#programming-languages-used)
 
 # Hactoberfest Guidelines
+
 ![hacktoberfest-banner](./public/assets/hacktoberfest2022.jpg)
 
 ## Contributing Guidelines
@@ -84,6 +84,7 @@ npm i && npm start
 6. Wait for your pull request to be merged.
 
 ## Try Website
+
 [👉jspgallery.netlify.app](https://jspgallery.netlify.app)
 
 ## Tech Stacks Used

@@ -1,0 +1,7 @@
+{
+    name: "Subhashis Paul",
+    ghurl: "https://github.com/subhashis2204",
+    imgName: "SubhashisWordCounter.png",
+    folderName: "SubhashisWordCounter",
+    projectTitle: "Word Counter",
+}
