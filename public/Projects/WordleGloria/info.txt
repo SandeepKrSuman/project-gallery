@@ -1,0 +1,7 @@
+{
+    name: "Glória Brito",
+    ghurl: "https://github.com/GloBrito",
+    imgName: "WordleGloria.png",
+    folderName: "WordleGloria",
+    projectTitle: "Wordle Game",
+}
