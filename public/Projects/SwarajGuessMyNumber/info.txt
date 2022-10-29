@@ -1,7 +1,7 @@
 {
     name: "Swaraj",
     ghurl: "https://github.com/swarajzz",
-    imgName: "GuessMyNumber.gif",
+    imgName: "GuessMyNumber.png",
     folderName: "SwarajGuessMyNumber",
     projectTitle: "Guess My Number Game",
 }
