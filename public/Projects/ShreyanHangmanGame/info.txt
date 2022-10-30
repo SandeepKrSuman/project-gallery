@@ -1,0 +1,7 @@
+{
+    name: "Shreyan Mjumdar",
+    ghurl: "https://github.com/Shreyan-12345",
+    imgName: "Hangman.png",
+    folderName: "ShreyanDiceGame",
+    projectTitle: "Hangman Game",
+}
