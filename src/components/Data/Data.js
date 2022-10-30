@@ -146,6 +146,20 @@ const userData = [
     folderName: "RadzhivQrReader",
     projectTitle: "Qr Code Reader",
   },
+  {
+    name: "Swaraj",
+    ghurl: "https://github.com/swarajzz",
+    imgName: "GuessMyNumber.png",
+    folderName: "SwarajGuessMyNumber",
+    projectTitle: "Guess My Number Game",
+  },
+  {
+    name: "Muzhar Hussain",
+    ghurl: "https://github.com/muzhar01",
+    imgName: "top100.png",
+    folderName: "MuzharTop100",
+    projectTitle: "Top 100 Songs",
+  },
 ];
 
 export { userData };

@@ -1,0 +1,120 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-size: 0;
+}
+
+
+
+.topo {
+    margin: auto;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.tabuleiro {
+    text-transform: uppercase;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    width: 320px;
+    /* isso é largura*/
+    margin: auto;
+    border-color: transparent;
+    padding: 14px;
+
+}
+
+.quadrado {
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #d3d6da;
+    padding: 14px;
+    box-sizing: content-box;
+    line-height: 1;
+    vertical-align: middle;
+    height: 1em;
+    /*altura*/
+    width: 1em;
+    font-size: 24px;
+    margin: 2px;
+}
+
+.qdo-cinza {
+    background-color: #787c7e;
+    color: #ffffff;
+}
+
+.qdo-verde {
+    background-color: #6aaa64;
+    color: #ffffff;
+}
+
+.qdo-amarelo {
+    background-color: #c9b458;
+    color: #ffffff;
+}
+
+.qdo-branco {
+    background-color: #ffffff;
+    color: black;
+}
+
+.teclado {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: auto auto 0px auto;
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
+}
+
+.linha {
+    display: block;
+
+}
+
+.botao {
+    display: inline-block;
+    text-align: center;
+    width: 45px;
+    line-height: 4;
+    box-sizing: content-box;
+    vertical-align: middle;
+    font-size: 10pt;
+    margin: 2px;
+    border-radius: 5px;
+    font-weight: bolder;
+
+
+}
+
+.bt-enter {
+    width: 60px;
+    font-size: 8pt;
+    line-height: 5;
+}
+
+.bt-cinza-claro {
+    background-color: #d3d6da;
+    color: black;
+}
+
+.bt-cinza-escuro {
+    background-color: #787c7e;
+    color: white;
+}
+
+.bt-amarelo {
+    background-color: #c9b458;
+    color: #ffffff;
+}
+
+.bt-verde {
+    background-color: #6aaa64;
+    color: #ffffff;
+}
