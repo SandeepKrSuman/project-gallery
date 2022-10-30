@@ -160,6 +160,27 @@ const userData = [
     folderName: "MuzharTop100",
     projectTitle: "Top 100 Songs",
   },
+  {
+    name: "Glória Brito",
+    ghurl: "https://github.com/GloBrito",
+    imgName: "WordleGloria.png",
+    folderName: "WordleGloria",
+    projectTitle: "Wordle Game",
+  },
+  {
+    name: "Shreyan Mjumdar",
+    ghurl: "https://github.com/Shreyan-12345",
+    imgName: "DiceGame.png",
+    folderName: "ShreyanDiceGame",
+    projectTitle: "Dice Game",
+  },
+  {
+    name: "Subhashis Paul",
+    ghurl: "https://github.com/subhashis2204",
+    imgName: "SubhashisWordCounter.png",
+    folderName: "SubhashisWordCounter",
+    projectTitle: "Word Counter",
+  },
 ];
 
 export { userData };
