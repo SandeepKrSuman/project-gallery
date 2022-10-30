@@ -2,6 +2,6 @@
     name: "Shreyan Mjumdar",
     ghurl: "https://github.com/Shreyan-12345",
     imgName: "Hangman.png",
-    folderName: "ShreyanDiceGame",
+    folderName: "ShreyanHangmanGame",
     projectTitle: "Hangman Game",
 }
