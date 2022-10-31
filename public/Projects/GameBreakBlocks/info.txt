@@ -1,0 +1,7 @@
+{
+    name: "Rubens Flinco",
+    ghurl: "https://github.com/rubensflinco",
+    imgName: "GameBreakBlocks.png",
+    folderName: "GameBreakBlocks",
+    projectTitle: "Game Break Blocks",
+}
