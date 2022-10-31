@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --timer-color: #323238;
+    --bg: #FFFFFF;
+    --bg-card: #E1E1E6;
+    --bg-card-selected: #02799D;
+    --bg-stroke: #323238;
+
+    font-size: 62.5%;
+    
+    --ff-main: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--bg);
+    font-size: 1.6rem;
+    font-family: var(--ff-main);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+.container {
+    display: flex;
+    gap: 19.2rem;
+    align-items: center;
+}
+
+
+.timer {
+    display: flex;
+}
+
+.timer span {
+    font-size: 12.6rem;
+    margin-bottom: 3rem;
+}
+
+.controls-container {
+    display: flex;
+    gap: 4rem;
+}
+
+.controls {
+    border: none;
+    background: var(--bg);
+}
+
+.sounds-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.2rem;
+}
+
+.button .bg-button {
+    fill: var(--bg-card);
+}
+
+.button .color-button {
+    fill: var(--bg-stroke);
+}
+
+.button-selected .bg-button {
+    fill: var(--bg-card-selected);
+}
+
+.button-selected .color-button {
+    fill: var(--bg);
+}
+
+.bg-control {
+    fill: var(--bg-stroke);
+}
+
+.controls-selected path {
+    fill: var(--bg-card-selected);
+}
+

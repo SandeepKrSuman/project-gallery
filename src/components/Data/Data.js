@@ -105,6 +105,13 @@ const userData = [
     projectTitle: "Timer",
   },
   {
+    name: "Gabriel Alves Vitebo",
+    ghurl: "https://github.com/gabriel-vitebo",
+    imgName: "TimerFocus.png",
+    folderName: "TimerFocus",
+    projectTitle: "Focus Timer 2.0",
+  },
+  {
     name: "Giulia Amaral",
     ghurl: "https://github.com/giuliaamaral",
     imgName: "catgame.gif",
