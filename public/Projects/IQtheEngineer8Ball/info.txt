@@ -1,0 +1,7 @@
+{
+    name: "Iman Crooks",
+    ghurl: "https://github.com/iqtheengineer",
+    imgName: "MagicEightBall.gif",
+    folderName: "IQtheEngineer8Ball",
+    projectTitle: "Magic 8 Ball",
+}
