@@ -16,6 +16,9 @@ export default function ThumbCard(props) {
         fluid={true}
         className="thumb-img"
         onClick={handleClick}
+        width={350}
+        height={175}
+        loading="lazy"
       />
       <Credit
         userName={props.data.name}
