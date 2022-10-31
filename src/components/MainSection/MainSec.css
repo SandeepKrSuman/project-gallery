@@ -2,3 +2,26 @@
     color: #000;
     background-color: #fff;
 }
+.top-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: fixed;
+    right: 4rem;
+    bottom: 4rem;
+    border-radius: 15px;
+    color: #ffffff;
+    background-color: #121916;
+    height: 3.5rem;
+    width: 3.5rem;
+    font-size: 1.3rem;
+    z-index: 999;
+}
+
+@media screen and (max-width:700px){
+    .top-btn{
+        display: none;
+    }
+    
+} 
