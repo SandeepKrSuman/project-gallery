@@ -105,13 +105,6 @@ const userData = [
     projectTitle: "Timer",
   },
   {
-    name: "Gabriel Alves Vitebo",
-    ghurl: "https://github.com/gabriel-vitebo",
-    imgName: "TimerFocus.png",
-    folderName: "TimerFocus",
-    projectTitle: "Focus Timer 2.0",
-  },
-  {
     name: "Giulia Amaral",
     ghurl: "https://github.com/giuliaamaral",
     imgName: "catgame.gif",
@@ -187,6 +180,34 @@ const userData = [
     imgName: "SubhashisWordCounter.png",
     folderName: "SubhashisWordCounter",
     projectTitle: "Word Counter",
+  },
+  {
+    name: "Shreyan Mjumdar",
+    ghurl: "https://github.com/Shreyan-12345",
+    imgName: "Hangman.png",
+    folderName: "ShreyanHangmanGame",
+    projectTitle: "Hangman Game",
+  },
+  {
+    name: "Iman Crooks",
+    ghurl: "https://github.com/iqtheengineer",
+    imgName: "MagicEightBall.gif",
+    folderName: "IQtheEngineer8Ball",
+    projectTitle: "Magic 8 Ball",
+  },
+  {
+    name: "Rubens Flinco",
+    ghurl: "https://github.com/rubensflinco",
+    imgName: "GameBreakBlocks.png",
+    folderName: "GameBreakBlocks",
+    projectTitle: "Game Break Blocks",
+  },
+  {
+    name: "Gabriel Alves Vitebo",
+    ghurl: "https://github.com/gabriel-vitebo",
+    imgName: "TimerFocus.png",
+    folderName: "GabrielTimerFocus",
+    projectTitle: "Focus Timer 2.0",
   },
 ];
 
