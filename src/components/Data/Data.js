@@ -21,6 +21,13 @@ const userData = [
     projectTitle: "Simon Game",
   },
   {
+    name: "Jej",
+    ghurl: "https://github.com/jej-v",
+    imgName: "JejMousePointer.gif",
+    folderName: "JejMousePointer",
+    projectTitle: "Mouse Pointer",
+  },
+  {
     name: "Vaibhav Tyagi",
     ghurl: "https://github.com/06vavy",
     imgName: "VaibhavPalinCheck.png",
