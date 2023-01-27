@@ -38,6 +38,8 @@
             function palin_check(str) {
 
                 let len = str.length;
+                if(len === 0)
+                return 0;
                 let lftPtr = 0, rgtPtr = len - 1;
 
                 while (lftPtr < rgtPtr) {
