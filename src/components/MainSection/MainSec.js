@@ -1,8 +1,9 @@
+import { useState, useEffect } from "react";
+import { FaArrowUp } from "react-icons/fa";
 import NavBar from "../Navigation/NavBar";
 import Gallery from "../Gallery/Gallery";
+
 import "./MainSec.css";
-import { FaArrowUp } from "react-icons/fa";
-import { useState, useEffect } from "react";
 
 export default function MainSec() {
   const [isVisible, setIsVisible] = useState(false);
@@ -27,18 +28,17 @@ export default function MainSec() {
   }, []);
   return (
     <>
-    {isVisible && (
-      <div className="top-btn" onClick={goToBtn}>
-        <FaArrowUp className="uparrow"></FaArrowUp>
-        {/* <h1>Button here!!</h1> */}
-      </div>
+      {isVisible && (
+        <div className="top-btn" onClick={goToBtn}>
+          <FaArrowUp className="uparrow" />
+        </div>
       )}
-    <section className="main-section">
-      <div className="cont-fluid">
-        <NavBar />
-        <Gallery />
-      </div>
-    </section>
+      <section className="main-section">
+        <div className="cont-fluid">
+          <NavBar />
+          <Gallery />
+        </div>
+      </section>
     </>
   );
 }
