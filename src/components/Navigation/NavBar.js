@@ -17,6 +17,16 @@ export default function NavBar() {
           <img alt="logo" src="/assets/logo.png" className="logo" /> Project
           <span> Gallery </span>
         </Navbar.Brand>
+        <Navbar.Collapse className="justify-content-end">
+          <Navbar.Text>
+            <a
+              className="contribute"
+              href="https://github.com/SandeepKrSuman/project-gallery"
+            >
+              Contribute
+            </a>
+          </Navbar.Text>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );

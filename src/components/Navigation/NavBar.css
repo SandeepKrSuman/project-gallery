@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Signika&display=swap');
 
 .navbar {
     padding: 0 0 4.5rem;
@@ -16,4 +16,12 @@
 
   .nvbrand span {
     margin-left: 10px;
+  }
+
+  .contribute, .contribute:hover, .contribute:focus {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    color: #000000;
+    font-family: 'Signika', sans-serif;
   }
