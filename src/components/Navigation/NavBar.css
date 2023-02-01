@@ -25,3 +25,26 @@
     color: #000000;
     font-family: 'Signika', sans-serif;
   }
+
+  .contribute {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .contribute::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #65a9cb;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .contribute:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
